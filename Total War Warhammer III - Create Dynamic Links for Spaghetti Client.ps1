@@ -12,26 +12,26 @@ New-Item -ItemType Junction -Path "assembly_kit" -Target "D:\OneDrive\Mounted Dr
 
 Set-Location "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Program Files\Steam\steamapps\workshop\content"
 # cmd /c rmdir /s /q "1142710"
-New-Item -ItemType Junction -Path "1142710" -Target "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Steam Workshop Mods"
+New-Item -ItemType Junction -Path "1142710" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Steam Workshop Mods"
 
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 # cmd /c rmdir /s /q "Total War Warhammer III - Game Folder"
 New-Item -ItemType Junction -Path "Total War Warhammer III - Game Folder" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Total War Warhammer III - Symbolic Link Storage\Total War Warhammer III - Game Folder"
 
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 # cmd /c rmdir /s /q "Total War Warhammer III - Scripting Projects"
-New-Item -ItemType Junction -Path "Total War Warhammer III - Scripting Projects" -Target "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\Documents\Total War Warhammer III - Scripting Projects"
+New-Item -ItemType Junction -Path "Total War Warhammer III - Scripting Projects" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\Documents\Total War Warhammer III - Scripting Projects"
 
 <#
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 # cmd /c rmdir /s /q "Total War Warhammer III - Symbolic Link Storage"
 New-Item -ItemType Junction -Path "Total War Warhammer III - Symbolic Link Storage" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Total War Warhammer III - Symbolic Link Storage"
 
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 # cmd /c rmdir /s /q "Total War Warhammer III - Data Folder"
 New-Item -ItemType Junction -Path "Total War Warhammer III - Data Folder" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Total War Warhammer III - Symbolic Link Storage\Total War Warhammer III - Data Folder"
 
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 # cmd /c rmdir /s /q "Total War Warhammer III - Game Folder"
 New-Item -ItemType Junction -Path "Total War Warhammer III - Game Folder" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Program Files\Steam\steamapps\common\Total War Warhammer III - Game Folder"
 #>

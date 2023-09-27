@@ -1,4 +1,4 @@
-﻿Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Config And Saves Auto Backup"
+﻿Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Config And Saves Auto Backup"
 
 # cmd /c rmdir /s /q "advice_history"
 # cmd /c rmdir /s /q "auth"
@@ -28,11 +28,11 @@ New-Item -ItemType Junction -Path "save_games" -Target "D:\OneDrive\Mounted Driv
 New-Item -ItemType Junction -Path "screenshots" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\screenshots"
 New-Item -ItemType Junction -Path "scripts" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\scripts"
 
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\User AppData Settings Auto Backup\Jessica Ariadne Murphy"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\User AppData Settings Auto Backup\Jessica Ariadne Murphy"
 # cmd /c rmdir /s /q "Total War Warhammer III - Settings and Save Games Auto Backup"
 New-Item -ItemType Directory -Path "Total War Warhammer III - Settings and Save Games Auto Backup"
 
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\User AppData Settings Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Settings and Save Games Auto Backup"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\User AppData Settings Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Settings and Save Games Auto Backup"
 
 # cmd /c rmdir /s /q "advice_history"
 # cmd /c rmdir /s /q "auth"
