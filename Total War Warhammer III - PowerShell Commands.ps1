@@ -3,7 +3,7 @@
 # comment
 
 <# comment
-"D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - PowerShell Scripts"
+"C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - PowerShell Scripts"
 contines #>
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 
