@@ -32,7 +32,7 @@ New-Item -ItemType Junction -Path "save_games" -Target "D:\OneDrive\Mounted Driv
 New-Item -ItemType Junction -Path "screenshots" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\screenshots"
 New-Item -ItemType Junction -Path "scripts" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\scripts"
 #>
-<# TOTAL WAR: WARHAMMER III - RUNCHER AND RAPID PACK FILE MANAGER SETTINGS DYNAMIC LINK SECTION #>
+<# TOTAL WAR: WARHAMMER III - RUNCHER AND RPFM SETTINGS DYNAMIC LINK SECTION #>
 <# ONEDRIVE APPDATA COPY OF RUNCHER AND RPFM CONFIG #>
 <#
 Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy"
@@ -41,13 +41,13 @@ New-Item -ItemType Directory -Path "Total War Warhammer III - Runcher And RPFM C
 Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
 cmd /c rmdir /s /q "Runcher Settings Backup"
 New-Item -ItemType Junction -Path "Runcher Settings Backup" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\runcher"
-cmd /c rmdir /s /q "Rapid Pack File Manager Settings Backup"
-New-Item -ItemType Directory -Path "Rapid Pack File Manager Settings Backup"
+cmd /c rmdir /s /q "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "RPFM Settings Backup"
 
-Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Runcher And RPFM Configuration Auto Backup\Rapid Pack File Manager Settings Backup"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Runcher And RPFM Configuration Auto Backup\RPFM Settings Backup"
 New-Item -ItemType Directory -Path "config"
 
-Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Runcher And RPFM Configuration Auto Backup\Rapid Pack File Manager Settings Backup\config"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy\Total War Warhammer III - Runcher And RPFM Configuration Auto Backup\RPFM Settings Backup\config"
 
 #autosaves folder can become very large. Remove if needed.
 New-Item -ItemType Junction -Path "autosaves" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\rpfm\config\autosaves"

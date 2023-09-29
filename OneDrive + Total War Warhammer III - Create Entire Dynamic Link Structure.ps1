@@ -12,7 +12,7 @@ New-Item -ItemType Junction -Path "assembly_kit" -Target "C:\Total War Warhammer
 
 Set-Location "C:\Program Files\Steam\steamapps\workshop\content"
 cmd /c rmdir /s /q "1142710"
-New-Item -ItemType Junction -Path "1142710" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Steam Workshop Mods"
+New-Item -ItemType Junction -Path "1142710" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Workshop Mods"
 
 Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 cmd /c rmdir /s /q "Total War Warhammer III - Game Folder"
@@ -82,7 +82,7 @@ New-Item -ItemType Junction -Path "save_games" -Target "C:\Users\Jessica Murphy\
 New-Item -ItemType Junction -Path "screenshots" -Target "C:\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\screenshots"
 New-Item -ItemType Junction -Path "scripts" -Target "C:\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\scripts"
 
-<# PART THREE - TOTAL WAR: WARHAMMER III - RUNCHER AND RAPID PACK FILE MANAGER CONFIGURATION DYNAMIC LINK SECTION #>
+<# PART THREE - TOTAL WAR: WARHAMMER III - RUNCHER AND RPFM CONFIGURATION DYNAMIC LINK SECTION #>
 Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 cmd /c rmdir /s /q "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
 New-Item -ItemType Directory -Path "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
@@ -90,9 +90,9 @@ New-Item -ItemType Directory -Path "Total War Warhammer III - Runcher And RPFM C
 Set-Location "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
 cmd /c rmdir /s /q "Runcher Settings Backup"
 New-Item -ItemType Junction -Path "Runcher Settings Backup" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\runcher"
-cmd /c rmdir /s /q "Rapid Pack File Manager Settings Backup"
-New-Item -ItemType Directory -Path "Rapid Pack File Manager Settings Backup"
-Set-Location "Rapid Pack File Manager Settings Backup"
+cmd /c rmdir /s /q "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "RPFM Settings Backup"
+Set-Location "RPFM Settings Backup"
 New-Item -ItemType Directory -Path "config"
 Set-Location "config"
 
@@ -113,9 +113,9 @@ New-Item -ItemType Directory -Path "Total War Warhammer III - Runcher And RPFM C
 Set-Location "Total War Warhammer III - Runcher And RPFM Configuration Auto Backup"
 cmd /c rmdir /s /q "Runcher Settings Backup"
 New-Item -ItemType Junction -Path "Runcher Settings Backup" -Target "C:\Users\Jessica Murphy\AppData\Roaming\FrodoWazEre\runcher"
-cmd /c rmdir /s /q "Rapid Pack File Manager Settings Backup"
-New-Item -ItemType Directory -Path "Rapid Pack File Manager Settings Backup"
-Set-Location "Rapid Pack File Manager Settings Backup"
+cmd /c rmdir /s /q "RPFM Settings Backup"
+New-Item -ItemType Directory -Path "RPFM Settings Backup"
+Set-Location "RPFM Settings Backup"
 New-Item -ItemType Directory -Path "config"
 Set-Location "config"
 
