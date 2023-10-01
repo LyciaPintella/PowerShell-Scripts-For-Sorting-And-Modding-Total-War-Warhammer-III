@@ -12,7 +12,7 @@ New-Item -ItemType Junction -Path "assembly_kit" -Target "C:\Total War Warhammer
 
 Set-Location "C:\Program Files\Steam\steamapps\workshop\content"
 cmd /c rmdir /s /q "1142710"
-New-Item -ItemType Junction -Path "1142710" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Workshop Mods"
+New-Item -ItemType Junction -Path "1142710" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - Steam Workshop Mods"
 
 Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
 cmd /c rmdir /s /q "Total War Warhammer III - Game Folder"
