@@ -1,24 +1,15 @@
-# In PowerShell 2.0 and above multi-line block comments can be used:
+<# "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - PowerShell Scripts" contines #>
 
-# comment
+Get-ChildItem "C:\Program Files\Steam\steamapps\common\Total War PHARAOH DYNASTIES\data" -Filter *.pack -Recurse | Select-String "projectiles_tables" | Select-Object -Unique Path | Format-Wide
 
-<# comment
-"C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - PowerShell Scripts"
-contines #>
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
+# Directory List Short Name
+Get-ChildItem -Name
+Get-ChildItem -Name Format-Wide
 
 # Directory List Wide Format
 
 Get-ChildItem | Format-Wide
-<# alias: #>
-Get-ChildItem | format-wide
 
-cd "C:\Users\Lycia Pintella\AppData\Roaming\Microsoft\Windows"
-New-Item -ItemType Junction -Path "Libraries" -Target "C:\Users\Jessica Murphy\AppData\Roaming\Microsoft\Windows\Libraries"
-
-cd "c:\Users\Lycia Pintella\AppData\Local\Packages\"
-New-Item -ItemType HardLink -Path "Windows Terminal Shell Configuration.json" -Target "c:\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
-
-<# C:\Program Files\LinkShellExtension
-https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#junctions #>
+# Directory List Full Name
+Get-ChildItem | Select-Object -ExpandProperty FullName | Format-Wide
 

@@ -1,3 +1,7 @@
-Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\Documents\Total War Warhammer III - Scripting Projects\Total War Warhammer III - Scripting Projects\__JESSICAS_NOTES"
+Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\Documents"
+cmd /c rmdir /s /q "Windows Terminal Configuration"
+New-Item -ItemType Junction -Path "Windows Terminal Configuration" -Target "c:\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 
-New-Item -ItemType Junction -Path "Windows Terminal Shell Configuration" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
+Set-Location "D:\OneDrive\Lycia Pintella\OneDrive\Documents"
+cmd /c rmdir /s /q "Windows Terminal Configuration"
+New-Item -ItemType Junction -Path "Windows Terminal Configuration" -Target "c:\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
