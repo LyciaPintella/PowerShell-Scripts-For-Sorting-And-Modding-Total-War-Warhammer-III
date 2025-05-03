@@ -1,12 +1,17 @@
-﻿Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups"
-<# cmd /c rmdir /s /q "Total War Warhammer III - Settings and Save Games Auto Backup" #>
-New-Item -ItemType Directory -Path "Total War Warhammer III - Settings and Save Games Auto Backup"
-Set-Location "Total War Warhammer III - Settings and Save Games Auto Backup"
+﻿Set-Location "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Backups - Jess\Total War Settings Backup - Jess"
+<# cmd /c rmdir /s /q "Total War - Settings Auto Backup" #>
+New-Item -ItemType Directory -Path "Total War - Settings Auto Backup"
+Set-Location "Total War - Settings Auto Backup"
+
+New-Item -ItemType Directory -Path "The Creative Assembly"
+Set-Location "The Creative Assemblyp"
+
 
 cmd /c rmdir /s /q "advice_history"
 cmd /c rmdir /s /q "auth"
 cmd /c rmdir /s /q "battle_preferences"
 cmd /c rmdir /s /q "custom_keys"
+cmd /c rmdir /s /q "event_feed"
 cmd /c rmdir /s /q "ingame_messaging"
 cmd /c rmdir /s /q "maps"
 cmd /c rmdir /s /q "replays"
@@ -14,6 +19,7 @@ cmd /c rmdir /s /q "resume"
 cmd /c rmdir /s /q "saved_characters"
 cmd /c rmdir /s /q "save_games"
 cmd /c rmdir /s /q "screenshots"
+cmd /c rmdir /s /q "scripts"
 
 New-Item -ItemType Junction -Path "advice_history" -Target "C:\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\advice_history"
 New-Item -ItemType Junction -Path "auth" -Target "C:\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\auth"

@@ -1,0 +1,2 @@
+cd "c:\Users\Lycia Pintella\AppData\Local\Packages\"
+New-Item -ItemType HardLink -Path "Windows Terminal Shell Configuration.json" -Target "c:\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"

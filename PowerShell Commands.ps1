@@ -13,11 +13,11 @@ Get-ChildItem | Format-Wide
 <# alias: #>
 Get-ChildItem | format-wide
 
-Get-ChildItem -Recurse | Select-String "bretonniatwo_rename_saved_game" -List | Select-Object Path
+cd "C:\Users\Lycia Pintella\AppData\Roaming\Microsoft\Windows"
+New-Item -ItemType Junction -Path "Libraries" -Target "C:\Users\Jessica Murphy\AppData\Roaming\Microsoft\Windows\Libraries"
 
-New-Item -ItemType Junction -Path "Script" -Target "D:\OneDrive\Documents\Warhammer III Projects\Scripting_Projects\Script"
-
-New-Item -ItemType HardLink -Path "Windows Terminal Shell Configuration.json" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
+cd "c:\Users\Lycia Pintella\AppData\Local\Packages\"
+New-Item -ItemType HardLink -Path "Windows Terminal Shell Configuration.json" -Target "c:\Users\Jessica Murphy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 <# C:\Program Files\LinkShellExtension
 https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#junctions #>
