@@ -150,6 +150,72 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{b3138a24-f1ce-5065-8425-fa9a8d1f1fc4}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{0d0c9a9f-7e62-5a15-bdab-164508f9ecf6}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{40c77338-7677-524c-ad5a-7b9ca4da5786}",
+                "hidden": false,
+                "name": "AlmaLinux OS 9",
+                "source": "AlmaLinuxOSFoundation.AlmaLinux9_dx92scvka9p9g"
+            },
+            {
+                "guid": "{ea4902dd-27c5-53f5-9ce6-e90b5b784b45}",
+                "hidden": false,
+                "name": "Fedora Remix for WSL",
+                "source": "WhitewaterFoundryLtd.Co.FedoraRemixforWSLSL_jrhb67h10t4wm"
+            },
+            {
+                "guid": "{07975c00-d74c-5278-ba14-6aaf273abf6f}",
+                "hidden": false,
+                "name": "OracleLinux_9_5",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{040417d6-8862-57d0-8add-9ba75fe2e95a}",
+                "hidden": true,
+                "name": "AlmaLinux-9",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{0afb0b03-19cc-59a6-95a4-1a18a5db5533}",
+                "hidden": false,
+                "name": "PistachioLinux",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{d3f31bee-5823-5ed8-8e04-f31ed54f2cd9}",
+                "hidden": true,
+                "name": "fedoraremix",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{d9a465dd-fff8-573f-8475-d2a33c61ef7b}",
+                "hidden": false,
+                "name": "SUSE-Linux-Enterprise-15-SP6",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{3f5357a8-0a86-5738-ad6a-c735b6921f06}",
+                "hidden": false,
+                "name": "openSUSE-Leap-15.6",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -200,98 +266,6 @@
             "selectionBackground": "#B4009E",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#300A24",
-            "black": "#171421",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#08458F",
-            "brightCyan": "#2C9FB3",
-            "brightGreen": "#26A269",
-            "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#A2734C",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#26A269",
-            "name": "Ubuntu-18.04-ColorScheme",
-            "purple": "#881798",
-            "red": "#C21A23",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#A2734C"
-        },
-        {
-            "background": "#300A24",
-            "black": "#171421",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#08458F",
-            "brightCyan": "#2C9FB3",
-            "brightGreen": "#26A269",
-            "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#A2734C",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#26A269",
-            "name": "Ubuntu-20.04-ColorScheme",
-            "purple": "#881798",
-            "red": "#C21A23",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#A2734C"
-        },
-        {
-            "background": "#300A24",
-            "black": "#171421",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#08458F",
-            "brightCyan": "#2C9FB3",
-            "brightGreen": "#26A269",
-            "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#A2734C",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#26A269",
-            "name": "Ubuntu-22.04-ColorScheme",
-            "purple": "#881798",
-            "red": "#C21A23",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#A2734C"
-        },
-        {
-            "background": "#300A24",
-            "black": "#171421",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#08458F",
-            "brightCyan": "#2C9FB3",
-            "brightGreen": "#26A269",
-            "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#A2734C",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#26A269",
-            "name": "Ubuntu-ColorScheme",
-            "purple": "#881798",
-            "red": "#C21A23",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#A2734C"
         }
     ],
     "showTabsInTitlebar": false,
