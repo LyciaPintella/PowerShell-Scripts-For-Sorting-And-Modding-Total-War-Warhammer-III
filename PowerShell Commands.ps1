@@ -19,4 +19,3 @@ Get-ChildItem -Path "C:\OneDrive\Jessica Ariadne Murphy\OneDrive" -Recurse -Forc
 
 #This does it from the current directory
 Get-ChildItem -Recurse -Force | Where-Object { $_.LinkType -ne $null -or $_.Attributes -match "Junction" } | ft FullName,Linktype,Target | Format-Wide
-
