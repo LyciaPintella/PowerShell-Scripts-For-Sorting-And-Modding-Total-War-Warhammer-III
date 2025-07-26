@@ -11,8 +11,8 @@
     "keybindings": 
     [
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+f"
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "ctrl+h"
         },
         {
             "id": null,
@@ -23,20 +23,20 @@
             "keys": "ctrl+v"
         },
         {
-            "id": "Terminal.ToggleCommandPalette",
-            "keys": "ctrl+h"
+            "id": "Terminal.FindText",
+            "keys": "ctrl+f"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+t"
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "alt+c"
         },
         {
             "id": "Terminal.ToggleCommandPalette",
             "keys": "f1"
         },
         {
-            "id": "Terminal.ToggleCommandPalette",
-            "keys": "alt+c"
+            "id": null,
+            "keys": "ctrl+shift+t"
         },
         {
             "id": "Terminal.ToggleCommandPalette",
@@ -150,6 +150,18 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{b3138a24-f1ce-5065-8425-fa9a8d1f1fc4}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{0d0c9a9f-7e62-5a15-bdab-164508f9ecf6}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
