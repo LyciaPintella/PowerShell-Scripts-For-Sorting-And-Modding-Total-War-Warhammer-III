@@ -12,8 +12,8 @@
     "keybindings": 
     [
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+f"
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "ctrl+h"
         },
         {
             "id": "Terminal.PasteFromClipboard",
@@ -24,20 +24,20 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "id": "Terminal.ToggleCommandPalette",
-            "keys": "ctrl+h"
+            "id": "Terminal.FindText",
+            "keys": "ctrl+f"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+t"
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "alt+c"
         },
         {
             "id": "Terminal.ToggleCommandPalette",
             "keys": "f1"
         },
         {
-            "id": "Terminal.ToggleCommandPalette",
-            "keys": "alt+c"
+            "id": null,
+            "keys": "ctrl+shift+t"
         },
         {
             "id": "Terminal.ToggleCommandPalette",
@@ -226,6 +226,12 @@
                 "hidden": false,
                 "name": "openSUSE-Leap-15.6",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "hidden": false,
+                "name": "PowerShell 7 Preview",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },

@@ -1,3 +1,4 @@
+
 <#
 Set-Location "D:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\AppData Settings and Start Menu Configuration Auto Backup\Jessica Ariadne Murphy"
 # cmd /c rmdir /s /q "Total War Warhammer III - Settings and Save Games Auto Backup"
@@ -25,12 +26,17 @@ New-Item -ItemType Junction -Path "custom_keys" -Target "D:\OneDrive\Mounted Dri
 New-Item -ItemType Junction -Path "event_feed" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\event_feed"
 New-Item -ItemType Junction -Path "ingame_messaging" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\ingame_messaging"
 New-Item -ItemType Junction -Path "maps" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\maps"
-New-Item -ItemType Junction -Path "replays" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\replays"
+
 New-Item -ItemType Junction -Path "resume" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\resume"
 New-Item -ItemType Junction -Path "saved_characters" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\saved_characters"
 New-Item -ItemType Junction -Path "save_games" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\save_games"
 New-Item -ItemType Junction -Path "screenshots" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\screenshots"
-New-Item -ItemType Junction -Path "scripts" -Target "D:\OneDrive\Mounted Drives\Samsung 990 PRO NVMe SSD\Users\Jessica Murphy\AppData\Roaming\The Creative Assembly\Warhammer3\scripts"
+
+#Temp Files
+New-Item -ItemType Junction -Path "crash_report"  -Target "G:\Scrap AppData\Warhammer3\crash_report"
+New-Item -ItemType Junction -Path "logs" -Target "G:\Scrap AppData\Warhammer3\logs"
+New-Item -ItemType Junction -Path "replays" -Target "G:\Scrap AppData\Warhammer3\replays"
+
 #>
 <# TOTAL WAR: WARHAMMER III - RUNCHER AND RPFM SETTINGS DYNAMIC LINK SECTION #>
 <# ONEDRIVE APPDATA COPY OF RUNCHER AND RPFM CONFIG #>
@@ -194,3 +200,4 @@ New-Item -ItemType Junction -Path "Windows Application Installers" -Target "C:\O
 New-Item -ItemType Junction -Path "Windows Tools And Drivers" -Target "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Windows Tools And Drivers"
 #>
 
+*/
