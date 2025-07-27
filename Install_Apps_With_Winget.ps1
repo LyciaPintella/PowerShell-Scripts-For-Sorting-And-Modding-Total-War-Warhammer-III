@@ -48,6 +48,18 @@ winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code f
 !
 '
 
+winget install Mozilla.Firefox #Mozilla FireFox
+
+/*'
+& ? Integrated Development Environments (IDEs)
+
+winget install KDE.Kate
+winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Community Edition
+winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
+
+winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
+
+'
 ? AI TOOLKIT
 winget install Ollama.Ollama #Ollama
 
@@ -2668,6 +2680,7 @@ KeeWeb                                    KeeWeb.KeeWeb                         
 Butterfly                                 LinwoodCloud.Butterfly                    2.3.2
 Butterfly (Nightly)                       LinwoodCloud.Butterfly.Nightly            2.4.0-beta
 Flow (Nightly)                            LinwoodDev.Flow.Nightly                   0.4.2
+<<<<<<< HEAD
 
 MysteriumVPN                              MysteriumNetwork.Mysterium                10.17.10
 Museeks                                   Pierre.Museeks                            0.13.1
