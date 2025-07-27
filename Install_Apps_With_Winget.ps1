@@ -1,3 +1,4 @@
+--[[
 /*
 ? upgrade --all
 
@@ -23,8 +24,17 @@ winget install Microsoft.PowerShell
 winget install Microsoft.PowerShell.Preview
 
 winget install Mozilla.Firefox #Mozilla FireFox
+winget install Google.Chrome #Google Chrome
+winget install Google.ChromeRemoteDesktopHost #Google Chrome Remote Desktop
+winget install Opera.Opera #Opera Browser
+winget install Opera.OperaGX #Opera GX
+winget install
+winget install
 
-/*'
+
+
+
+'
 & ? Integrated Development Environments (IDEs)
 
 winget install KDE.Kate
@@ -32,8 +42,12 @@ winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Communi
 winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
 
 winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
+'
 
 '
+!
+'
+
 ? AI TOOLKIT
 winget install Ollama.Ollama #Ollama
 
@@ -98,7 +112,8 @@ winget install REALiX.HWiNFO #HWiNFO
 winget install Rambax.SimpleTransfer #Simple Transfer
 winget install RandomEngy.VidCoder #VidCoder
 winget install RealtimeSoft.UltraMon #UltraMon
-'? Runs in command prompt, dlss-updater #'
+
+? Runs in command prompt, dlss-updater
 winget install Recol.DLSSUpdater #DLSS Updater
 winget install RedHat.Podman-Desktop #Podman Desktop
 winget install RevoLand.Steam-Library-Manager #Steam Library Manager
@@ -174,7 +189,11 @@ winget upgrade Ubisoft.Connect
 winget upgrade EpicGames.EpicGamesLauncher
 winget upgrade Discord.Discord
 
-' CHECK LATER
+'
+]]--
+*/
+
+ CHECK LATER
 
 
 Synthesia                                 Synthesia.Synthesia                       10.9.5903
@@ -3344,10 +3363,3 @@ mRemoteNG (Nightly)                       mRemoteNG.mRemoteNG.Nightly           
 Meson Build System                        mesonbuild.meson                          1.8.2
 scrumchrono                               pedrojreis.scrumchrono                    0.1.6
 Desktop Dimmer                            sidneys.desktop-dimmer                    4.0.4
-
-
-
-
-
-
-*/
