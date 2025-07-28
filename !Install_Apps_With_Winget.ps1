@@ -1,10 +1,39 @@
---[[
-/*
-? upgrade --all
-
-! Try after rebooting: install SamyGO.SammyWidgets #Sammy Widgets
+<#Try after rebooting: install SamyGO.SammyWidgets #Sammy Widgets
 
 winget repair MSIX\MicrosoftWindows.CrossDevice_1.25071.30.0_x64__cw5n1h2txyewy
+
+winget install samlab-ws.SnappyDriverInstaller #Snappy Driver Installer Origin
+winget install Treexy.DriverFusion #Driver Fusion
+
+winget install SystweakSoftware.AdvancedDriverUpdater #Advanced Driver Updater
+
+winget install Recol.DLSSUpdater #DLSS Updater
+winget install Eassos.DiskGenius #DiskGenius
+winget install EZBSystems.UltraISO #UltraISO
+winget install C-PartnerSystemhausGmbH.DocuToolbox.AllFeatures #DocuToolbox All Features
+winget install EZBSystems.EasyBoot #EasyBoot
+
+--BOOKMARK--
+winget install SystweakSoftware.AdvancedSystemOptimizer #Advanced System Optimizer
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+
 
 winget install Microsoft.DotNet.DesktopRuntime.3_1
 winget install Microsoft.DotNet.Runtime.6
@@ -20,6 +49,11 @@ winget install Microsoft.DotNet.Runtime.6
 winget install Microsoft.DotNet.Runtime.7
 winget install Microsoft.DotNet.Runtime.8
 winget install Microsoft.DotNet.Runtime.9
+
+
+winget install Microsoft.Sysinternals.Suit #Sysinternals Suite
+
+
 winget install Microsoft.PowerShell
 winget install Microsoft.PowerShell.Preview
 
@@ -201,11 +235,160 @@ winget upgrade Ubisoft.Connect
 winget upgrade EpicGames.EpicGamesLauncher
 winget upgrade Discord.Discord
 
-'
-]]--
-*/
 
- CHECK LATER
+CHECK LATER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bluetooth Battery Monitor                            LuculentSystems.BluetoothBatteryMonitor         2.20.0                   winget
+Bluetooth Tweaker                                    LuculentSystems.BluetoothTweaker                1.4.5                    winget
+n3uron                                               N3uronConnectivitySystems.N3uron                1.21.13                  winget
+NI System Configuration                              NI.ni-systemconfiguration                       25.5.0                   winget
+Signal                                               OpenWhisperSystems.Signal                       7.63.0                   winget
+Signal Beta                                          OpenWhisperSystems.Signal.Beta                  7.45.0-beta…             winget
+Orbx Central                                         OrbxSimulationSystems.OrbxCentral               4.1.43                   winget
+Volanta                                              OrbxSimulationSystems.Volanta                   1.4.14                   winget
+PEAK-Drivers                                         PEAKSystem.PEAKDrivers                          4.6.1.652                winget
+AUDAC System Manager                                 PVS.AUDACSystemManager                          1                        winget
+Linux File Systems for Windows by Paragon Software   Paragon.LinuxFileSystems                        5.2.1183                 winget
+Promark Creator                                      PartexMarkingSystems.PromarkCreator             4.5.628                  winget
+Promark Creator Stable                               PartexMarkingSystems.PromarkCreatorStable       4.4.616.0                winget
+SystemLoadTracker                                    Schuischta.SystemLoadTracker                    1.2                      winget
+GoodSync                                             SiberSystems.GoodSync                           12.9.1.1                 winget
+RoboForm                                             SiberSystems.RoboForm                           9.7.8.8                  winget
+System Explorer                                      SystemExplorer.SystemExplorer                   7.0.0                    winget
+Advanced System Optimizer                            SystweakSoftware.AdvancedSystemOptimizer        3.81.8181.2…             winget
+TeamDrive                                            TeamDriveSystems.TeamDrive                      4.8.0.3230               winget
+TeamSpeak 3 Client                                   TeamSpeakSystems.TeamSpeakClient                3.6.2                    winget
+TeamSpeak Beta                                       TeamSpeakSystems.TeamSpeakClient.Beta.5         5.0.0                    winget
+TeamSpeak 6 Beta                                     TeamSpeakSystems.TeamSpeakClient.Beta.6         6.0.0-beta2              winget
+Thorlabs Imaging Systems Software                    Thorlabs.ThorlabsImagingSystemsSoftware         3.7.0.6                  winget
+Remote System Monitor Server                         Trigone.SystemMonitor                           3.69                     winget
+WatchGuard System Manager                            WatchGuard.WatchGuardSystemManager              12.11.3                  winget
+CodeMeter Runtime Kit                                Wibu-Systems.CodeMeterRuntimeKit                8.30.6885.5…             winget
+System Informer                                      WinsiderSS.SystemInformer                       3.2.25099.1…             winget
+System Informer (Canary)                             WinsiderSS.SystemInformer.Canary                3.2.25205.6…             winget
+WSA System Control                                   infinitepower18.WSASystemControl                1.0.13                   winget
+ECLiPSe Constraint Logic Programming System Version… Coninfer.ECLiPSeCLP.7.0                         7.0 #63                  winget
+ECLiPSe Constraint Logic Programming System Version… Coninfer.ECLiPSeCLP.7.1                         7.1 #13                  winget
+Turbocor® Compressor Configuration Management System Danfoss.CCMS                                    4.3.4                    winget
+VST MIDI System Synth (Falcomod)                     Falcosoft.VSTMidiDriver                         2.5.1.3                  winget
+Manifold System 8                                    ManifoldSoftware.Manifold.8                     8.0.35                   winget
+Manifold System 9                                    ManifoldSoftware.Manifold.9                     9.0.181                  winget
+Maxima computer algebra system                       MaximaTeam.Maxima                               5.47.0                   winget
+Microsoft System CLR Types for SQL Server 2019       Microsoft.CLRTypesSQLServer.2019                15.0.2000.5              winget
+Windows Subsystem for Linux                          Microsoft.WSL                                   2.5.9                    winget
+Nullsoft Install System                              NSIS.NSIS                                       3.11                     winget
+NVIDIA PhysX System Software                         Nvidia.PhysX                                    9.21.0713                winget
+System Information Viewer                            RayHinchliffe.SIV                               5.81                     winget
+SAGA - System for Automated Geoscientific Analyses   SAGAUserGroupAssociation.SAGAGIS                9.2.0                    winget
+Zhegui master data management platform system        Zheguisoft.zg_mdm                               6.2.0.5                  winget
+Zhegui turnover packaging appliance management syst… Zheguisoft.zg_pkg                               1.0.0.0                  winget
+Zhegui printing platform system                      Zheguisoft.zg_print                             6.2.0.5                  winget
+Zhegui upload platform system                        Zheguisoft.zg_upload                            6.2.0.5                  winget
+Meson Build System                                   mesonbuild.meson                                1.8.2                    winget
+Anylogic Personal Learning Edition                   AnyLogic.AnyLogic.Personal                      8.9.4        Tag: syste… winget
+Anylogic Professional                                AnyLogic.AnyLogic.Professional                  8.9.4        Tag: syste… winget
+Anylogic University                                  AnyLogic.AnyLogic.University                    8.9.4        Tag: syste… winget
+Argus Monitor                                        Argotronic.ArgusMonitor                         7.2.5.3050   Tag: syste… winget
+FireDaemon Pro                                       FireDaemon.FireDaemonPro                        6.1.6        Tag: syste… winget
+MultiDrive                                           Atola.MultiDrive                                1.1.0        Tag: syste… winget
+Bazel                                                Bazel.Bazel                                     8.3.1        Tag: build… winget
+CPUID CPU-Z Aorus                                    CPUID.CPU-Z.AORUS                               2.06         Tag: syste… winget
+CPUID CPU-Z OC Formula                               CPUID.CPU-Z.ASR                                 2.05         Tag: syste… winget
+CPUIDCoolerMaster CPU-Z                              CPUID.CPU-Z.CM                                  2.06         Tag: syste… winget
+CPUID CPU-Z Gigabyte                                 CPUID.CPU-Z.GBT                                 2.06         Tag: syste… winget
+CPUID CPU-Z MSI                                      CPUID.CPU-Z.MSI                                 2.06         Tag: syste… winget
+CPUID PHANTOM CPU-Z                                  CPUID.CPU-Z.PHANTOM                             2.06         Tag: syste… winget
+CPUID ROG CPU-Z                                      CPUID.CPU-Z.ROG                                 2.08         Tag: syste… winget
+CPUID TAICHI CPU-Z                                   CPUID.CPU-Z.TAICHI                              2.06         Tag: syste… winget
+Soundscape                                           Danilov.Soundscape                              1.6.0        Tag: syste… winget
+OLEDShift                                            Marko19907.OLEDShift                            1.1.2        Tag: syste… winget
+GPTranslate                                          PhilBerndt.GPTranslate                          1.3.2        Tag: syste… winget
+Twinkle Tray                                         xanderfrangos.twinkletray                       1.16.7       Tag: syste… winget
+DiskInternals Linux Reader                           DiskInternals.LinuxReader                       4.23.10      Tag: files… winget
+Link Shell Extension                                 HermannSchinagl.LinkShellExtension              3.9.3.5      Tag: files… winget
+FileLocator Pro/Lite                                 Mythicsoft.FileLocator                          9.3.3522.1   Tag: files… winget
+HFS+ for Windows by Paragon Software                 Paragon.HFS+                                    11.4.298     Tag: files… winget
+rmstale                                              danstis.rmstale                                 1.18.2       Tag: files… winget
+Dokan Library                                        dokan-dev.Dokany                                2.2.1.1000   Tag: files… winget
+gdu                                                  dundee.gdu                                      5.31.0       Tag: files… winget
+fselect                                              fselect.fselect                                 0.9.0        Tag: files… winget
+Ntfs2btrfs                                           maharmstone.Ntfs2btrfs                          20230501     Tag: files… winget
+duf                                                  muesli.duf                                      0.8.1        Tag: files… winget
+vivid                                                sharkdp.vivid                                   0.10.1       Tag: files… winget
+Everything                                           voidtools.Everything                            1.4.1.1026   Tag: files… winget
+Everything (Alpha)                                   voidtools.Everything.Alpha                      1.5.0.1396a  Tag: files… winget
+Everything Cli                                       voidtools.Everything.Cli                        1.1.0.30     Tag: files… winget
+Everything Lite                                      voidtools.Everything.Lite                       1.4.1.1026   Tag: files… winget
+superfile                                            yorukot.superfile                               v1.3.3       Tag: files… winget
+Ln - Command line Hardlinks                          HermannSchinagl.ln                              2.9.3.4      Tag: file-… winget
+Process Monitor                                      Microsoft.Sysinternals.ProcessMonitor           4.01         Tag: file-… winget
+Hugo                                                 Hugo.Hugo                                       0.148.2      Tag: conte… winget
+Hugo (Deploy)                                        Hugo.Hugo.Deploy                                0.145.0      Tag: conte… winget
+Hugo (Extended)                                      Hugo.Hugo.Extended                              0.148.2      Tag: conte… winget
+mediaChips                                           fupdec.mediaChips                               0.12.4       Tag: conte… winget
+zola                                                 getzola.zola                                    0.21.0       Tag: conte… winget
+FileList                                             JAMSoftware.FileList                            4.4.1        Tag: syste… winget
+TreeSize                                             JAMSoftware.TreeSize                            9.5.1        Tag: syste… winget
+TreeSize Free                                        JAMSoftware.TreeSize.Free                       4.7.3        Tag: syste… winget
+UltraSearch                                          JAMSoftware.UltraSearch                         4.8.1        Tag: syste… winget
+OCSysInfo                                            KernelWanderers.OCSysInfo                       1.1.0        Tag: syste… winget
+DooTask                                              KuaiFan.DooTask                                 1.1.15       Tag: task-… winget
+NTop                                                 gsass1.NTop                                     0.3.21       Tag: syste… winget
+Microsoft Azure Service Fabric                       Microsoft.ServiceFabricRuntime                  11.0.2707.1  Tag: distr… winget
+NATS Server                                          NATSAuthors.NATSServer                          2.10.25      Tag: distr… winget
+etcd                                                 etcd-io.etcd                                    3.6.4        Tag: distr… winget
+Spacedrive                                           spacedrive.Spacedrive                           0.4.3        Tag: distr… winget
+O&O BlueCon                                          OO-Software.BlueCon                             22.0.13009   Tag: Syste… winget
+O&O Defrag Professional                              OO-Software.Defrag.Professional                 29.1.11203   Tag: Syste… winget
+O&O Defrag Server                                    OO-Software.Defrag.Server                       29.1.11203   Tag: Syste… winget
+O&O DeskInfo                                         OO-Software.DeskInfo                            1.3.1348     Tag: Syste… winget
+O&O DiskStat                                         OO-Software.DiskStat                            4.5.1364     Tag: Syste… winget
+Objeck                                               RandyHollines.Objeck                            2024.4.1     Tag: runti… winget
+Servant Voice                                        ServantVoice.ServantVoice                       5.6.21.05    Tag: phone… winget
+TASKING winIDEA                                      TASKING.winIDEA                                 9.21.340     Tag: isyst… winget
+TagStudio                                            TagStudioDev.TagStudio                          9.5.2        Tag: docum… winget
+Brim                                                 brimdata.brim                                   1.18.0       Tag: type-… winget
+CRSim                                                denglihong2007.CRSim                            2.3.1.1      Tag: Chine… winget
+Gaphor                                               gaphor.gaphor                                   3.1.0        Tag: model… winget
+WSA Sideloader                                       infinitepower18.WSASideloader                   1.4.10       Tag: windo… winget
+Globalping CLI                                       jsdelivr.Globalping                             1.5.0        Tag: syste… winget
+PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> winget uninstall Easeware.DriverEasy #Driver Easy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Synthesia                                 Synthesia.Synthesia                       10.9.5903
@@ -3376,3 +3559,5 @@ mRemoteNG (Nightly)                       mRemoteNG.mRemoteNG.Nightly           
 Meson Build System                        mesonbuild.meson                          1.8.2
 scrumchrono                               pedrojreis.scrumchrono                    0.1.6
 Desktop Dimmer                            sidneys.desktop-dimmer                    4.0.4
+
+#>
