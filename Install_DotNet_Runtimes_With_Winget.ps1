@@ -1,15 +1,15 @@
+<#Install .NET runtimes using winget#>
+winget install Microsoft.DotNet.DesktopRuntime.3_1
+winget install Microsoft.DotNet.Runtime.6
+winget install Microsoft.DotNet.DesktopRuntime.3_1
+winget install Microsoft.DotNet.DesktopRuntime.5
+winget install Microsoft.DotNet.DesktopRuntime.6
+winget install Microsoft.DotNet.DesktopRuntime.7
+winget install Microsoft.DotNet.DesktopRuntime.8
+winget install Microsoft.DotNet.DesktopRuntime.9
 winget install Microsoft.DotNet.Runtime.3_1
-winget install Microsoft.NET Runtime.5.0
-winget install Microsoft.NET Runtime.6.0
-winget install Microsoft.NET Runtime.7.0
-winget install Microsoft.NET Runtime.8.0
-winget install Microsoft.NET Runtime.9.0
-winget install Microsoft.NET Runtime.10.0
-
-winget install Microsoft .NET Runtime 3.1
-winget install Microsoft .NET Runtime 5.0
-winget install Microsoft .NET Runtime 6.0
-winget install Microsoft .NET Runtime 7.0
-winget install Microsoft .NET Runtime 8.0
-winget install Microsoft .NET Runtime 9.0
-winget install Microsoft .NET Runtime 10.0
+winget install Microsoft.DotNet.Runtime.5
+winget install Microsoft.DotNet.Runtime.6
+winget install Microsoft.DotNet.Runtime.7
+winget install Microsoft.DotNet.Runtime.8
+winget install Microsoft.DotNet.Runtime.9

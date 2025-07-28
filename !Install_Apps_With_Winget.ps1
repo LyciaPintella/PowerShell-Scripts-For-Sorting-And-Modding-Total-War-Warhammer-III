@@ -13,18 +13,9 @@ winget install EZBSystems.UltraISO #UltraISO
 winget install C-PartnerSystemhausGmbH.DocuToolbox.AllFeatures #DocuToolbox All Features
 winget install EZBSystems.EasyBoot #EasyBoot
 
---BOOKMARK--
-winget install SystweakSoftware.AdvancedSystemOptimizer #Advanced System Optimizer
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
+
+
+
 winget install
 winget install
 winget install
@@ -35,20 +26,7 @@ winget install
 winget install
 
 
-winget install Microsoft.DotNet.DesktopRuntime.3_1
-winget install Microsoft.DotNet.Runtime.6
-winget install Microsoft.DotNet.DesktopRuntime.3_1
-winget install Microsoft.DotNet.DesktopRuntime.5
-winget install Microsoft.DotNet.DesktopRuntime.6
-winget install Microsoft.DotNet.DesktopRuntime.7
-winget install Microsoft.DotNet.DesktopRuntime.8
-winget install Microsoft.DotNet.DesktopRuntime.9
-winget install Microsoft.DotNet.Runtime.3_1
-winget install Microsoft.DotNet.Runtime.5
-winget install Microsoft.DotNet.Runtime.6
-winget install Microsoft.DotNet.Runtime.7
-winget install Microsoft.DotNet.Runtime.8
-winget install Microsoft.DotNet.Runtime.9
+
 
 
 winget install Microsoft.Sysinternals.Suit #Sysinternals Suite
@@ -91,19 +69,39 @@ winget install KDE.Kate
 winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Community Edition
 winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
 
-winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
+
 
 '
+
+winget install GPSoftware.DirectoryOpus
+winget install Microsoft.VisualStudioCode
+winget install Ubisoft.Connect
+winget install EpicGames.EpicGamesLauncher
+winget install Discord.Discord
+
 ? AI TOOLKIT
 winget install Ollama.Ollama #Ollama
 
+
+<#MAKING A PS1 FILE FOR THIS
+winget install Zwylair.BetterDiscordAutoInstaller #BetterDiscord Auto Installer
+winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
+winget install SystweakSoftware.AdvancedSystemOptimizer #Advanced System Optimizer
+winget install SystweakSoftware.AdvancedDriverUpdater   4.6.1086.7222  winget
+winget install SystweakSoftware.SystweakSoftwareUpdater
+winget install Mythicsoft.FileLocator #FileLocator Pro/Lite
+winget install Bose.Updater #Bose Updater
+winget install Hyperionics.HyperSnap9 #HyperSnap 9
+winget install Skillbrains.Lightshot #Lightshot
+winget install Wondershare.Cropro #Wondershare Cropro
+winget install ElaborateBytes.VirtualCloneDrive #Virtual CloneDrive
+winget install IAMCloud.CloudDriveMapper #Cloud Drive Mapper
+winget install Coder.Coder #Coder
+winget install Kopia.KopiaCLI #Kopia CLI
+winget install Nextcloud.NextcloudDesktop #Nextcloud Desktop
 winget install 9PBL2KQXQ47K #CorelDRAW
 winget install 9N318R854RHH #Microsoft Journal
-
 winget install 9P1HQ5TQZMGD #Microsoft Loop https://support.microsoft.com/en-us/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c
-
-
-
 winget install Google.WorkspaceSyncForMicrosoftOutlook #Google Workspace SyncTM for Microsoft Outlook
 winget install Microsoft.CmdPalGitHubExtension #GitHub extension for Command Palette
 winget install Microsoft.Edge.Beta #Microsoft Edge Beta
@@ -112,7 +110,6 @@ winget install Microsoft.LogParser #Log Parser 2.2
 winget install Microsoft.MUTT #Microsoft USB Hub and Controller Test Tool
 winget install Microsoft.MediaCreationTool #Media Creation Tool
 winget install XPDM5VSMTKQLBJ #Battle.net
-
 winget install Microsoft.winfile #Windows File Manager
 winget install Microsoft.XMLNotepad #XML Notepad
 winget install Grammarly.Grammarly.Office #Grammarly for Microsoft Office
@@ -128,7 +125,6 @@ winget install Discord.Discord #Discord
 winget install Naturalsoft.NaturalReader16 #NaturalReader 16
 winget install OBSProject.OBSStudio #OBS Studio
 winget install OffSec.KaliLinux #Kali Linux
-
 winget install OfficialAroCodes.AroCrypt #AroCrypt
 winget install OlavSortlandThoresen.ScreenCloud #ScreenCloud
 winget install OndrejSalplachta.AdvancedLogViewer #Advanced Log Viewer
@@ -159,7 +155,7 @@ winget install Rambax.SimpleTransfer #Simple Transfer
 winget install RandomEngy.VidCoder #VidCoder
 winget install RealtimeSoft.UltraMon #UltraMon
 
-? Runs in command prompt, dlss-updater
+<#Runs in command prompt, dlss-updater#>
 winget install Recol.DLSSUpdater #DLSS Updater
 winget install RedHat.Podman-Desktop #Podman Desktop
 winget install RevoLand.Steam-Library-Manager #Steam Library Manager
@@ -173,50 +169,12 @@ winget install aandrew-me.ytDownloader #YouTube Downloader
 winget install  amir1376.ABDownloadManager #AB Download Manager
 winget install Ventoy.Ventoy #Ventoy
 winget install VictorIX.BlenderLauncher
-'
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> install Ventoy.Ventoy #Ventoy
-Found Ventoy [Ventoy.Ventoy] Version 1.1.05
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-windows.zip
-  ██████████████████████████████  15.9 MB / 15.9 MB
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Starting package install...
-Path environment variable modified; restart your shell to use the new value.
-Command line alias added: "Ventoy2Disk"
-Command line alias added: "VentoyPlugson"
-Command line alias added: "VentoyVlnk"
-Successfully installed
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> ventoy2disk
-ventoy2disk: The term 'ventoy2disk' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> Ventoy2Disk
-Ventoy2Disk: The term 'Ventoy2Disk' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-'
 winget install CrowdSecurity.CrowdSec #CrowdSec
 winget install MultiViewer.MultiViewer #MultiViewer
 winget install 0xJacky.nginx-ui #nginx-ui
 winget install DOSBox.DOSBox #DOSBox
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
-winget install
 
-' LINUX DISTROS
-
+		<#LINUX DISTROS#>
 winget install 9P5RWLM70SN9 #AlmaLinux OS 9
 winget install 9P41G2MV9CQ3 #Pistachio Linux
 winget install Debian.Debian #Debian GNU/Linux
@@ -225,979 +183,60 @@ winget install whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
 winget install SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
 winget install SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
 
+winget install LuculentSystems.BluetoothBatteryMonitor
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
 
-'
-
-
-winget repair GPSoftware.DirectoryOpus
-winget upgrade Microsoft.VisualStudioCode
-winget upgrade Ubisoft.Connect
-winget upgrade EpicGames.EpicGamesLauncher
-winget upgrade Discord.Discord
-
-
-CHECK LATER
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bluetooth Battery Monitor                            LuculentSystems.BluetoothBatteryMonitor         2.20.0                   winget
-Bluetooth Tweaker                                    LuculentSystems.BluetoothTweaker                1.4.5                    winget
-n3uron                                               N3uronConnectivitySystems.N3uron                1.21.13                  winget
-NI System Configuration                              NI.ni-systemconfiguration                       25.5.0                   winget
-Signal                                               OpenWhisperSystems.Signal                       7.63.0                   winget
-Signal Beta                                          OpenWhisperSystems.Signal.Beta                  7.45.0-beta…             winget
-Orbx Central                                         OrbxSimulationSystems.OrbxCentral               4.1.43                   winget
-Volanta                                              OrbxSimulationSystems.Volanta                   1.4.14                   winget
-PEAK-Drivers                                         PEAKSystem.PEAKDrivers                          4.6.1.652                winget
-AUDAC System Manager                                 PVS.AUDACSystemManager                          1                        winget
-Linux File Systems for Windows by Paragon Software   Paragon.LinuxFileSystems                        5.2.1183                 winget
-Promark Creator                                      PartexMarkingSystems.PromarkCreator             4.5.628                  winget
-Promark Creator Stable                               PartexMarkingSystems.PromarkCreatorStable       4.4.616.0                winget
-SystemLoadTracker                                    Schuischta.SystemLoadTracker                    1.2                      winget
-GoodSync                                             SiberSystems.GoodSync                           12.9.1.1                 winget
-RoboForm                                             SiberSystems.RoboForm                           9.7.8.8                  winget
-System Explorer                                      SystemExplorer.SystemExplorer                   7.0.0                    winget
-Advanced System Optimizer                            SystweakSoftware.AdvancedSystemOptimizer        3.81.8181.2…             winget
-TeamDrive                                            TeamDriveSystems.TeamDrive                      4.8.0.3230               winget
-TeamSpeak 3 Client                                   TeamSpeakSystems.TeamSpeakClient                3.6.2                    winget
-TeamSpeak Beta                                       TeamSpeakSystems.TeamSpeakClient.Beta.5         5.0.0                    winget
-TeamSpeak 6 Beta                                     TeamSpeakSystems.TeamSpeakClient.Beta.6         6.0.0-beta2              winget
-Thorlabs Imaging Systems Software                    Thorlabs.ThorlabsImagingSystemsSoftware         3.7.0.6                  winget
-Remote System Monitor Server                         Trigone.SystemMonitor                           3.69                     winget
-WatchGuard System Manager                            WatchGuard.WatchGuardSystemManager              12.11.3                  winget
-CodeMeter Runtime Kit                                Wibu-Systems.CodeMeterRuntimeKit                8.30.6885.5…             winget
-System Informer                                      WinsiderSS.SystemInformer                       3.2.25099.1…             winget
-System Informer (Canary)                             WinsiderSS.SystemInformer.Canary                3.2.25205.6…             winget
-WSA System Control                                   infinitepower18.WSASystemControl                1.0.13                   winget
-ECLiPSe Constraint Logic Programming System Version… Coninfer.ECLiPSeCLP.7.0                         7.0 #63                  winget
-ECLiPSe Constraint Logic Programming System Version… Coninfer.ECLiPSeCLP.7.1                         7.1 #13                  winget
-Turbocor® Compressor Configuration Management System Danfoss.CCMS                                    4.3.4                    winget
-VST MIDI System Synth (Falcomod)                     Falcosoft.VSTMidiDriver                         2.5.1.3                  winget
-Manifold System 8                                    ManifoldSoftware.Manifold.8                     8.0.35                   winget
-Manifold System 9                                    ManifoldSoftware.Manifold.9                     9.0.181                  winget
-Maxima computer algebra system                       MaximaTeam.Maxima                               5.47.0                   winget
-Microsoft System CLR Types for SQL Server 2019       Microsoft.CLRTypesSQLServer.2019                15.0.2000.5              winget
-Windows Subsystem for Linux                          Microsoft.WSL                                   2.5.9                    winget
-Nullsoft Install System                              NSIS.NSIS                                       3.11                     winget
-NVIDIA PhysX System Software                         Nvidia.PhysX                                    9.21.0713                winget
-System Information Viewer                            RayHinchliffe.SIV                               5.81                     winget
-SAGA - System for Automated Geoscientific Analyses   SAGAUserGroupAssociation.SAGAGIS                9.2.0                    winget
-Zhegui master data management platform system        Zheguisoft.zg_mdm                               6.2.0.5                  winget
-Zhegui turnover packaging appliance management syst… Zheguisoft.zg_pkg                               1.0.0.0                  winget
-Zhegui printing platform system                      Zheguisoft.zg_print                             6.2.0.5                  winget
-Zhegui upload platform system                        Zheguisoft.zg_upload                            6.2.0.5                  winget
-Meson Build System                                   mesonbuild.meson                                1.8.2                    winget
-Anylogic Personal Learning Edition                   AnyLogic.AnyLogic.Personal                      8.9.4        Tag: syste… winget
-Anylogic Professional                                AnyLogic.AnyLogic.Professional                  8.9.4        Tag: syste… winget
-Anylogic University                                  AnyLogic.AnyLogic.University                    8.9.4        Tag: syste… winget
-Argus Monitor                                        Argotronic.ArgusMonitor                         7.2.5.3050   Tag: syste… winget
-FireDaemon Pro                                       FireDaemon.FireDaemonPro                        6.1.6        Tag: syste… winget
-MultiDrive                                           Atola.MultiDrive                                1.1.0        Tag: syste… winget
-Bazel                                                Bazel.Bazel                                     8.3.1        Tag: build… winget
-CPUID CPU-Z Aorus                                    CPUID.CPU-Z.AORUS                               2.06         Tag: syste… winget
-CPUID CPU-Z OC Formula                               CPUID.CPU-Z.ASR                                 2.05         Tag: syste… winget
-CPUIDCoolerMaster CPU-Z                              CPUID.CPU-Z.CM                                  2.06         Tag: syste… winget
-CPUID CPU-Z Gigabyte                                 CPUID.CPU-Z.GBT                                 2.06         Tag: syste… winget
-CPUID CPU-Z MSI                                      CPUID.CPU-Z.MSI                                 2.06         Tag: syste… winget
-CPUID PHANTOM CPU-Z                                  CPUID.CPU-Z.PHANTOM                             2.06         Tag: syste… winget
-CPUID ROG CPU-Z                                      CPUID.CPU-Z.ROG                                 2.08         Tag: syste… winget
-CPUID TAICHI CPU-Z                                   CPUID.CPU-Z.TAICHI                              2.06         Tag: syste… winget
-Soundscape                                           Danilov.Soundscape                              1.6.0        Tag: syste… winget
-OLEDShift                                            Marko19907.OLEDShift                            1.1.2        Tag: syste… winget
-GPTranslate                                          PhilBerndt.GPTranslate                          1.3.2        Tag: syste… winget
-Twinkle Tray                                         xanderfrangos.twinkletray                       1.16.7       Tag: syste… winget
-DiskInternals Linux Reader                           DiskInternals.LinuxReader                       4.23.10      Tag: files… winget
-Link Shell Extension                                 HermannSchinagl.LinkShellExtension              3.9.3.5      Tag: files… winget
-FileLocator Pro/Lite                                 Mythicsoft.FileLocator                          9.3.3522.1   Tag: files… winget
-HFS+ for Windows by Paragon Software                 Paragon.HFS+                                    11.4.298     Tag: files… winget
-rmstale                                              danstis.rmstale                                 1.18.2       Tag: files… winget
-Dokan Library                                        dokan-dev.Dokany                                2.2.1.1000   Tag: files… winget
-gdu                                                  dundee.gdu                                      5.31.0       Tag: files… winget
-fselect                                              fselect.fselect                                 0.9.0        Tag: files… winget
-Ntfs2btrfs                                           maharmstone.Ntfs2btrfs                          20230501     Tag: files… winget
-duf                                                  muesli.duf                                      0.8.1        Tag: files… winget
-vivid                                                sharkdp.vivid                                   0.10.1       Tag: files… winget
-Everything                                           voidtools.Everything                            1.4.1.1026   Tag: files… winget
-Everything (Alpha)                                   voidtools.Everything.Alpha                      1.5.0.1396a  Tag: files… winget
-Everything Cli                                       voidtools.Everything.Cli                        1.1.0.30     Tag: files… winget
-Everything Lite                                      voidtools.Everything.Lite                       1.4.1.1026   Tag: files… winget
-superfile                                            yorukot.superfile                               v1.3.3       Tag: files… winget
-Ln - Command line Hardlinks                          HermannSchinagl.ln                              2.9.3.4      Tag: file-… winget
-Process Monitor                                      Microsoft.Sysinternals.ProcessMonitor           4.01         Tag: file-… winget
-Hugo                                                 Hugo.Hugo                                       0.148.2      Tag: conte… winget
-Hugo (Deploy)                                        Hugo.Hugo.Deploy                                0.145.0      Tag: conte… winget
-Hugo (Extended)                                      Hugo.Hugo.Extended                              0.148.2      Tag: conte… winget
-mediaChips                                           fupdec.mediaChips                               0.12.4       Tag: conte… winget
-zola                                                 getzola.zola                                    0.21.0       Tag: conte… winget
-FileList                                             JAMSoftware.FileList                            4.4.1        Tag: syste… winget
-TreeSize                                             JAMSoftware.TreeSize                            9.5.1        Tag: syste… winget
-TreeSize Free                                        JAMSoftware.TreeSize.Free                       4.7.3        Tag: syste… winget
-UltraSearch                                          JAMSoftware.UltraSearch                         4.8.1        Tag: syste… winget
-OCSysInfo                                            KernelWanderers.OCSysInfo                       1.1.0        Tag: syste… winget
-DooTask                                              KuaiFan.DooTask                                 1.1.15       Tag: task-… winget
-NTop                                                 gsass1.NTop                                     0.3.21       Tag: syste… winget
-Microsoft Azure Service Fabric                       Microsoft.ServiceFabricRuntime                  11.0.2707.1  Tag: distr… winget
-NATS Server                                          NATSAuthors.NATSServer                          2.10.25      Tag: distr… winget
-etcd                                                 etcd-io.etcd                                    3.6.4        Tag: distr… winget
-Spacedrive                                           spacedrive.Spacedrive                           0.4.3        Tag: distr… winget
-O&O BlueCon                                          OO-Software.BlueCon                             22.0.13009   Tag: Syste… winget
-O&O Defrag Professional                              OO-Software.Defrag.Professional                 29.1.11203   Tag: Syste… winget
-O&O Defrag Server                                    OO-Software.Defrag.Server                       29.1.11203   Tag: Syste… winget
-O&O DeskInfo                                         OO-Software.DeskInfo                            1.3.1348     Tag: Syste… winget
-O&O DiskStat                                         OO-Software.DiskStat                            4.5.1364     Tag: Syste… winget
-Objeck                                               RandyHollines.Objeck                            2024.4.1     Tag: runti… winget
-Servant Voice                                        ServantVoice.ServantVoice                       5.6.21.05    Tag: phone… winget
-TASKING winIDEA                                      TASKING.winIDEA                                 9.21.340     Tag: isyst… winget
-TagStudio                                            TagStudioDev.TagStudio                          9.5.2        Tag: docum… winget
-Brim                                                 brimdata.brim                                   1.18.0       Tag: type-… winget
-CRSim                                                denglihong2007.CRSim                            2.3.1.1      Tag: Chine… winget
-Gaphor                                               gaphor.gaphor                                   3.1.0        Tag: model… winget
-WSA Sideloader                                       infinitepower18.WSASideloader                   1.4.10       Tag: windo… winget
-Globalping CLI                                       jsdelivr.Globalping                             1.5.0        Tag: syste… winget
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> winget uninstall Easeware.DriverEasy #Driver Easy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Synthesia                                 Synthesia.Synthesia                       10.9.5903
-Autologon                                 Sysinternals.Autologon                    3.1
-SmarTTY                                   Sysprogs.SmarTTY                          3.3
-Advanced Disk Recovery                    SystweakSoftware.AdvancedDiskRecovery     2.8.1233.1
-Advanced Driver Updater                   SystweakSoftware.AdvancedDriverUpdater    4.6.1086.7
-Advanced System Optimizer                 SystweakSoftware.AdvancedSystemOptimizer  3.81.8181.0
-Duplicate Files Fixer                     SystweakSoftware.DuplicateFilesFixer      1.2.1.964
-Duplicate Music Fixer                     SystweakSoftware.DuplicateMusicFixer      2.1.1000.1
-Duplicate Photos Fixer Pro                SystweakSoftware.DuplicatePhotosFixerPro  1.3.1086.1
-RegClean Pro                              SystweakSoftware.RegCleanPro              8.45.81.12
-Systweak Software Updater                 SystweakSoftware.SystweakSoftwareUpdater  1.0.24.107
-AlienFX Tools                             T-Troll.AlienFXTools                      9.3.0.2
-TASKING winIDEA                           TASKING.winIDEA                           9.21.340
-ViceVersa Pro 6                           TGRMN.ViceVersa.Pro                       6.0.1.4
-Bulk Rename Utility                       TGRMNSoftware.BulkRenameUtility           4.0.0.9
-同花顺问财                                THS.HXSmart                               1.0.2.5
-TIDAL                                     TIDALMusicAS.TIDAL                        2.38.6
-TORTUS                                    TORTUSAI.TORTUS                           1.3.1
-Colour Contrast Analyser                  TPGi.CCA                                  2.5.0
-Colour Contrast Analyser (CCA)            TPGi.CCAe                                 3.5.4
-gobang                                    TaKO8Ki.gobang                            0.1.0-alph
-Tabby                                     TabbyML.Tabby                             0.30.1
-TableCloth                                TableClothProject.TableCloth              1.14.0
-TablePlus                                 TablePlus.TablePlus                       6.6.2
-Tableau Desktop                           Tableau.Desktop                           24.3.965
-Tableau Prep Builder                      Tableau.PrepBuilder                       24.3.41107
-Tableau Public                            Tableau.Public                            25.1.463
-Tableau Reader                            Tableau.Reader                            25.1.463
-Tabular Editor 3                          TabularEditor.TabularEditor.3             3.22.1
-TagStudio                                 TagStudioDev.TagStudio                    9.5.2
-Sofia                                     TaiStudio.Sofia                           1.0.3
-Sucrose Wallpaper Engine                  Taiizor.SucroseWallpaperEngine            25.5.2.0
-Tauon Music Box                           Taiko2k.TauonMusicBox                     8.1.3
-Tailscale                                 Tailscale.Tailscale                       1.86.0
-Tailwind CSS                              TailwindLabs.TailwindCSS                  4.1.11
-Taisei Project                            Taisei.Taisei                             1.4.2
-Callbar                                   Talkdesk.Callbar                          1.48.16-el
-Talkdesk                                  Talkdesk.Talkdesk                         2.3.0
-RenPyCheatGenerator                       TamsosVardu.RenPyCheatGenerator           1.0.0
-Tandem                                    Tandem.Tandem                             2.2.1631
-摩尔庄园                                  Taomee.Mole                               0.0.6
-Kangaroo Multiple                         Taozuhong.KangarooMultiple                7.99.1.701
-Kangaroo Multiple                         Taozuhong.KangarooRedis                   7.99.1.701
-Nighthawk                                 TarakSharma.Nighthawk                     2.1.1
-Battery Mode                              TarasovArtyom.BatteryMode                 4.3.2.204
-NetPad                                    TareqImbasher.NetPad                      0.9.1
-NetPad vNext                              TareqImbasher.NetPad.vNext                0.9.1
-Harzing's Publish or Perish               Tarma.PublishOrPerish                     8.18.5091.
-Task                                      Task.Task                                 3.44.0
-TSW Mod Manager                           TaskPlays.TSWModManager                   2.2.1
-Taskade                                   Taskcade.Taskade                          4.4.5
-WindowsGSM                                TatLead.WindowsGSM                        1.23.1.0
-create-tauri-app                          Tauri.create-tauri-app                    4.5.10
-ncmdump                                   TaurusXin.ncmdump                         1.1
-Tautulli                                  Tautulli.Tautulli                         2.15.2.1
-TaxDome                                   TaxDomeLLC.TaxDome                        3.88.0.133
-TeaSpeak - Client                         TeaSpeak.TeaClient                        1.5.3-2
-TeamDrive                                 TeamDriveSystems.TeamDrive                4.8.0.3230
-TeamIDE                                   TeamIDE.TeamIDE                           2.6.35
-Lidarr                                    TeamLidarr.Lidarr                         2.9.6.4552
-Prowlarr                                  TeamProwlarr.Prowlarr                     1.36.3
-Radarr                                    TeamRadarr.Radarr                         5.26.2
-Readarr                                   TeamReadarr.Readarr                       0.1.9.1905
-Hakchi2 CE                                TeamShinkansen.Hakchi2-CE                 3.9.3
-Sonarr                                    TeamSonarr.Sonarr                         4.0.14.2939
-SophiApp                                  TeamSophia.SophiApp                       1.0.97
-Sophia Script for Windows                 TeamSophia.SophiaScript                   6.8.7
-TeamSpeak 3 Client                        TeamSpeakSystems.TeamSpeakClient          3.6.2
-TeamSpeak Beta                            TeamSpeakSystems.TeamSpeakClient.Beta.5   5.0.0
-TeamSpeak 6 Beta                          TeamSpeakSystems.TeamSpeakClient.Beta.6   6.0.0-beta2
-TeamViewer                                TeamViewer.TeamViewer                     15.67.5
-TeamViewer Host                           TeamViewer.TeamViewer.Host                15.67.5
-TcNo Account Switcher                     TechNobo.TcNoAccountSwitcher              2024-08-30
-NVCleanstall                              TechPowerUp.NVCleanstall                  1.19.0
-Camtasia                                  TechSmith.Camtasia                        25.2.0.109
-Snagit 2020                               TechSmith.Snagit.2020                     20.1.8.165
-Snagit 2021                               TechSmith.Snagit.2021                     21.4.7
-Snagit 2022                               TechSmith.Snagit.2022                     22.1.7
-Snagit 2023                               TechSmith.Snagit.2023                     23.2.6
-Snagit 2024                               TechSmith.Snagit.2024                     24.3.2
-Snagit 2025                               TechSmith.Snagit.2025                     25.2.1
-Chromas                                   Technelysium.Chromas                      2.6.6
-ChromasPro                                Technelysium.Chromas.Pro                  2.2.0
-消极压制                                  TedZyzsdy.NegativeEncoder                 5.0.8
-Telegrafer                                Telegrafer.Telegrafer                     0.0.2
-Telegram Desktop                          Telegram.TelegramDesktop                  5.16.6
-Telegram Desktop Beta                     Telegram.TelegramDesktop.Beta             4.6.4
-Unigram                                   Telegram.Unigram                          10.8.0.9930
-Progress Telerik Fiddler Classic          Telerik.Fiddler.Classic                   5.0.20253.
-Airwall Agent                             Tempered.Airwall.Agent                    3.4.5
-Temporal CLI                              Temporal.TemporalCLI                      1.4.1
-Tenable Nessus                            Tenable.Nessus                            10.9.1.200
-Nessus Agent                              Tenable.NessusAgent                       10.9.0.200
-Tenacity                                  TenacityTeam.Tenacity                     1.3.4
-ArtHub                                    Tencent.ArtHub                            1.18.0
-Fan Live                                  Tencent.FanLive                           2.18.0.76
-Foxmail                                   Tencent.Foxmail                           7.2.25.427
-QQ影像                                    Tencent.QQImage                           3.0.890.400
-QQ影音                                    Tencent.QQPlayer                          4.6.3.1104
-腾讯企点                                  Tencent.QiDian                            5.8.3.20262
-START                                     Tencent.START                             0.11.0.206
-TranSmart                                 Tencent.TranSmart                         Alpha0.11.0
-WeChat                                    Tencent.WeChat                            3.9.12.55
-WeChat                                    Tencent.WeChat.Universal                  4.0.6.26
-全民K歌主播版                             Tencent.WeSingLiveAssistant               0.0.0.0
-应用宝                                    Tencent.YingYongBao                       5.8.3
-Tencent Yuanbao                           Tencent.Yuanbao                           2.32.0
-ima.copilot                               Tencent.ima-copilot                       135.0.7049
-Music Player                              Tenpi.MusicPlayer                         0.3.1
-Video Player                              Tenpi.VideoPlayer                         0.2.0
-Waifu2x GUI                               Tenpi.Waifu2xGUI                          0.5.1
-Tera Term                                 TeraTermProject.teraterm                  4.108
-Tera Term 5                               TeraTermProject.teraterm5                 5.4.0
-Teradata Tools and Utilities - Base 20.0 Teradata.TTUBase                          20.00.25.00
-ODBC Driver for Teradata - Suite 20.00.25 Teradata.TTUOdbc                          20.00.25.00
-Teradata Tools and Utilities - Base 20.0 Teradata.TeradataBaseSuite                20.00.10.00
-PyDebloatX                                Teraskull.PyDebloatX                      1.12.0
-TSPrint Client                            TerminalWorks.TSPrintClient               3.2.3.13
-TSPrint Server                            TerminalWorks.TSPrintServer               3.2.3.13
-Terminals                                 Terminals.Terminals                       4.0.1.0
-Termius Beta                              Termius.Termius.Beta                      9.27.0
-Termora                                   TermoraDev.Termora                        1.0.17
-terraform-docs                            Terraform-docs.Terraform-docs             0.20.0
-TFLint                                    TerraformLinters.tflint                   0.58.1
-AES Crypt                                 Terrapane.AESCrypt                        4.3.1
-Terrastruct.D2                            0.7.0
-MarcEdit                                  TerryReese.MarcEdit                       7.7.35
-Tesseract                                 Tesseract.Tesseract.Stable                2014.05.12
-func-e                                    Tetrate.func-e                            1.1.4
-wazero                                    Tetrate.wazero                            1.9.0
-TI-Nspire CX CAS Student Software         TexasInstruments.TI-Nspire.CXCASStudent   5.3.2.129
-TI-Nspire CX Premium Teacher Software     TexasInstruments.TI-Nspire.CXPremiumTeac 5.3.2.129
-TI-Nspire CX Student Software             TexasInstruments.TI-Nspire.CXStudent      5.3.2.129
-TI-NspireTM Computer Link                 TexasInstruments.TI-Nspire.ComputerLink   3.9.0.455
-TI-SmartView for MathPrint Calculators    TexasInstruments.TI-SmartView.MathPrint   1.2.0.2108
-TI-SmartView CE pour la famille TI-83     TexasInstruments.TI-SmartView.TI-83       5.5.0.2092
-TI-SmartViewTM TI-CollègeTM Plus          TexasInstruments.TI-SmartView.TI-College 1.3.0.61
-TI ConnectTM                              TexasInstruments.TIConnect                4.0.0.218
-Texmaker                                  Texmaker.Texmaker                         6.0.1.0
-Texnomic SecureDNS Terminal               Texnomic.SecureDNS-Terminal               0.3
-TextExpander                              TextExpander.TextExpander                 254.8.2.601
-AutoCorrect                               Texthelp.AutoCorrect                      5.0.8784.1
-tgstation-server                          Tgstation.Server                          6.17.0
-Miru                                      ThaUnknown.Miru                           6.4.13
-Seatsmart                                 ThaddeusMcCleary.Seatsmart                2.0.6
-SafeNet Authentication Client             Thales.SafeNetAuthenticationClient        10.9.4482.0
-Refi App                                  ThanhLe.RefiApp                           0.0.19
-Discord RPC Maker                         ThatOneCalculator.DiscordRPCMaker         2.1.1
-Bombermaaan                               TheBombermaaanteam.Bombermaaan            1.4.0.627
-Arc                                       TheBrowserCompany.Arc                     1.64.0.222
-LibreOffice                               TheDocumentFoundation.LibreOffice         25.2.5.2
-LibreOffice Help Pack                     TheDocumentFoundation.LibreOffice.HelpPa 25.2.5.2
-LibreOffice SDK                           TheDocumentFoundation.LibreOffice.SDK     25.2.5.2
-Edgescape Navigator                       TheDoggyBradSoftwareLabs.EdgescapeNaviga 2
-Hamsket                                   TheGoddessInari.Hamsket                   0.6.3
-kazv                                      TheKazvProject.kazv                       0.6.0
-DeckMaster                                TheOtterlord.DeckMaster                   1.0.2
-Blood on the Clocktower Online            ThePandemoniumInstitute.BloodontheClockt 3.45.1
-Pokemon Trading Card Game Live            ThePokemonCompany.PokemonTCGLive          1.28.0.2
-pyzo                                      ThePyzoteam.pyzo                          4.19.0
-Qucs-S                                    TheQucsTeam.Qucs-S                        25.1.2
-MyExpenses                                TheR7angelo.MyExpenses                    1.1.11
-Stella                                    TheStellaTeam.Stella                      6.7.1
-The Legend of Pirates Online              TheTLOPOTeam.TheLegendofPiratesOnline     1.4.1
-Toontown Rewritten                        TheTTRTeam.ToontownRewritten              1.5.10.0
-Toontown Rewritten Test                   TheTTRTeam.ToontownRewrittenTest          1.0.0.0
-simple-http-server                        TheWaWaR.simple-http-server               0.6.13
-ZDaemon                                   TheZDaemonTeam.ZDaemon                    1.10.25
-ascii-image-converter                     TheZoraiz.ascii-image-converter           1.13.1
-Thermo Scientific TM Amira Avizo 3D Soft ThermoFisher.AmiraAvizo3D                 2024.2
-Serust                                    Thewh1teagle.Serust                       0.0.3
-vibe                                      Thewh1teagle.vibe                         3.0.5
-DeepChat                                  ThinkInAIXYZ.DeepChat                     0.2.6
-Dimension 4                               ThinkingManSoftware.Dimension4            5.31
-Zee Drive                                 Thinkscape.ZeeDrive                       65.13.0.0
-Full Stack AI Meme Generator              ThioJoe.FullStackAIMemeGenerator          1.0.4
-Thio's SVG Thumbnail Extension            ThioJoe.SvgThumbnailExtension             1.8.3
-YT Spammer Purge                          ThioJoe.YTSpammerPurge                    2.18.0
-Outlook Calendar Sync                     ThomasGossler.OutlookCalendarSync         1.1.3.0
-RealLegal E-Transcript Bundle Viewer      ThomsonReuters.E-TranscriptBundleViewer   6.9.0.202
-Thorlabs APT                              Thorlabs.APT.x64                          3.21.6
-Thorlabs APT                              Thorlabs.APT.x86                          3.21.6
-Thorlabs ThorSpectra Software, Core       Thorlabs.CCT                              3.35.0.4055
-Thorlabs CHROLIS                          Thorlabs.Chrolis                          3.1.2220.1
-Thorlabs CHROLIS - Device Driver          Thorlabs.ChrolisDeviceDriver              3.1.2220.1
-Thorlabs CHROLIS - Instrument Driver      Thorlabs.ChrolisInstrumentDriver          3.1.2220.1
-Thorlabs DC40                             Thorlabs.DC40                             1.0.0.411.
-Thorlabs ELLO                             Thorlabs.ELLO                             1.6.5.0
-EXULUS-SE1                                Thorlabs.EXULUS-SE1                       1.0.2
-FSLControl                                Thorlabs.FSLControl                       1.8.1.4
-FWxC                                      Thorlabs.FWxC                             5.0.0
-HPLS                                      Thorlabs.HPLS                             1.4.1
-Joystick                                  Thorlabs.Joystick                         2.0.3
-KLC                                       Thorlabs.KLC                              1.0.0
-Thorlabs Kinesis (x64)                    Thorlabs.Kinesis.x64                      1.14.53.24
-Thorlabs Kinesis (x86)                    Thorlabs.Kinesis.x86                      1.14.53.24
-Kurios                                    Thorlabs.Kurios                           1.9.6
-LCC25                                     Thorlabs.LCC25                            4.0.1
-LK220                                     Thorlabs.LK220                            1.0.3
-MC2000B                                   Thorlabs.MC2000B                          2.1.0
-MCLS1                                     Thorlabs.MCLS1                            3.0.1
-MCLS2                                     Thorlabs.MCLS2                            1
-MCM301                                    Thorlabs.MCM301                           1.2.1
-MEMS VCSEL Swept Source Utility           Thorlabs.MEMSVCSEL                        2.3.0.0
-PACU2                                     Thorlabs.PACU2                            1.0.0
-PockelsCellDriver                         Thorlabs.PCD1K                            1
-PDXC                                      Thorlabs.PDXC                             2.2.1
-QEPAS                                     Thorlabs.QEPAS                            1.0.0
-S4FC                                      Thorlabs.S4FC                             2.0.1
-S5FC                                      Thorlabs.S5FC                             1.2.0
-S7FC                                      Thorlabs.S7FC                             1.2.0
-SA201B                                    Thorlabs.SA201B                           1.3
-SC10                                      Thorlabs.SC10                             1.3.0
-SC30                                      Thorlabs.SC30                             1
-SLS60x                                    Thorlabs.SLS60x                           1.0.0
-SLS701                                    Thorlabs.SLS701                           1.1.1
-SPDC810                                   Thorlabs.SPDC810                          2.0.0
-TC200                                     Thorlabs.TC200                            1.6.0
-TC300B                                    Thorlabs.TC300B                           2.0.1
-Thorlabs TSP01                            Thorlabs.TSP01                            2.1.619.50
-ThorAOControl                             Thorlabs.ThorAOControl                    1.5.0
-TL_DeviceSDK                              Thorlabs.ThorlabsDeviceSDK                2.1
-Thorlabs Imaging Systems Software         Thorlabs.ThorlabsImagingSystemsSoftware   3.7.0.6
-Thorlabs XA                               Thorlabs.XA                               1.2.7.24917
-Thorlabs upSERIES                         Thorlabs.upSERIES                         1.4.1675.3
-xPlatform                                 Thorlabs.xPlatform                        1.2.0
-Talisman                                  Thoughtworks.Talisman                     1.37.0
-threema-web                               Threema.Threema                           1.2.48
-Threema Beta                              Threema.Threema.2                         2.0.55.0
-Threema OnPrem Beta                       Threema.Threema.OnPrem.2                  2.0.55.0
-threema-work-web                          Threema.Threema.Work                      1.2.48
-Threema Work Beta                         Threema.Threema.Work.2                    2.0.55.0
-Pathfinder 2024                           Thunderhead.Pathfinder.2024               24.2.1209
-PyroSim 2024                              Thunderhead.PyroSim.2024                  24.2.1209
-Ventus 2024                               Thunderhead.Ventus.2024                   24.2.1120
-Uhm                                       Thwani.Uhm                                0.1.4
-SQL Schema Compare                        TiCodeX.SQLSchemaCompare                  2025.3.1
-NeatChat                                  TianZhen.NeatChat                         1.1.19
-Tidepool Uploader                         Tidepool.TidepoolUploader                 2.62.0
-Tigris Messenger                          TigerCompany.TigrisMessenger              1.1.10
-TikzEdt Beta                              TikzEdt.TikzEdtBeta                       0.2.3
-TKey SSH Agent                            Tillitis.TKeySSHAgent                     1.0.0.0
-TKeyVerification                          Tillitis.TKeyVerification                 1.0.0
-Timeclockwizard                           TimeClockWizard.TimeClockWizard           1.43.0
-PreMiD                                    Timeraa.PreMiD                            2.2.0
-EARLY                                     Timeular.EARLY                            6.9.5
-BasicPawn                                 Timocop.BasicPawn                         0.855
-TinyCAD                                   TinyCAD.TinyCAD                           3.00.04
-Tiny RDM                                  TinyCraft.TinyRDM                         1.2.4
-TinyTask                                  TinyTask.TinyTask                         1.77
-KoreanQuiz                                Tipa_User.KoreanQuiz                      1.0.0
-Tixati                                    Tixati.Tixati.Portable                    3.35-1
-AFFiNE                                    ToEverything.AFFiNE                       0.23.2
-Custom Resolution Utility                 ToastyX.CustomResolutionUtility           1.5.3
-Boardmaker 7 Editor                       TobiiDynavox.Boardmaker.7.Editor          7.2.7.0
-Boardmaker 7 Student Center               TobiiDynavox.Boardmaker.7.StudentCenter   7.2.7.0
-Boardmaker Studio                         TobiiDynavox.Boardmaker.Studio            1.9.6172.0
-rBiblia                                   Toborek.rBiblia                           2.6.1.0
-DocTo                                     TobyAllen.DocTo                           1.14
-GitFiend                                  TobySuggate.GitFiend                      0.45.3
-Toggl Track                               Toggl.TogglTrack                          10.14.1
-Final2x                                   Tohrusky.Final2x                          2.1.0
-Colorpicker                               Toinane.Colorpicker                       2.2.2
-Jaguar                                    Toit.Jaguar                               1.53.0
-Snapshot                                  TomEhlertSoftware.Snapshot                1.50.0.1737
-Region To Share                           TomEnglert.RegionToShare                  1.11.6454
-BreakTimer                                TomWatson.BreakTimer                      1.3.2
-WonderPen                                 TominLab.WonderPen                        2.6.9
-Internet Download Manager                 Tonec.InternetDownloadManager             6.42.41
-ImageView                                 TonyPottier.ImageView                     2.4.6
-SIW                                       TopalaSoftwareSolutions.SIW               2025.07.13
-Topaz DeNoise AI                          TopazLabs.TopazDeNoiseAI                  3.7.0
-Topaz Gigapixel AI                        TopazLabs.TopazGigapixelAI                6.2.0
-Topaz Photo AI                            TopazLabs.TopazPhotoAI                    2.3.0
-Topaz Sharpen AI                          TopazLabs.TopazSharpenAI                  4.1.0
-Topaz Video Enhance AI                    TopazLabs.TopazVideoEnhanceAI             2.6.4
-EasyGPS                                   TopoGrafix.EasyGPS                        9.18.0.0
-ExpertGPS                                 TopoGrafix.ExpertGPS                      9.18.0.0
-VBoxHeadlessTray                          ToptenSoftware.VBoxHeadlessTray           7.0.0
-JANDI                                     TossLab.JANDI                             1.7.7
-토스KIOSK                                 TossPlace.TossKiosk                       0.0.7549
-토스POS                                   TossPlace.TossPOS                         0.0.8953
-QuickSFV                                  TotallyUsefulSoftware.QuickSFV            3.0.0
-Tracetool                                 Tracetool.Tracetool                       10.4.0.0
-PDF-Tools                                 TrackerSoftware.PDF-Tools                 10.6.1.397
-PDF-XChange Editor                        TrackerSoftware.PDF-XChangeEditor         10.6.1.397
-PDF-XChange PRO                           TrackerSoftware.PDF-XChangePRO            10.6.1.397
-PDF-XChange Standard                      TrackerSoftware.PDF-XChangeStandard       10.6.1.397
-PDF-XChange Viewer                        TrackerSoftware.PDF-XChangeViewer         2.5.322.10
-TradingView                               TradingView.TradingViewDesktop            2.11.0.7073
-SDL Trados Studio 2021 SR2                Trados.TradosStudio.2021                  16.2.9305
-Trados Studio 2022                        Trados.TradosStudio.2022                  17.2.12.19
-Trados Studio 2024                        Trados.TradosStudio.2024                  18.0.2.3255
-TRACE 3D Plus                             Trane.TRACE3DPlus                         5.00.123
-STACK                                     TransIP.STACK                             2.8.2.2021
-SSDScopeApp                               TransendInfo.SSDScopeApp                  4.23
-Transformer Lab                           TransformerLab.TransformerLab             0.20.4
-Transmission                              Transmission.Transmission                 4.0.6
-GestureSign                               TransposonY.GestureSign                   8.1
-LDView                                    TravisCobbs.LDView                        4.5.0.0
-Mask ROM Tool                             TravisGoodspeed.MaskROMTool               2025-06-01
-Steam Art Manager                         TravisLane.SteamArtManager                3.11.1
-LibUsbDotNet                              TravisRobinson.LibUsbDotNet               2.2.8.104
-Td-agent                                  TreasureData.TDAgent                      4.3.0
-NeoLoad                                   Tricentis.NeoLoad                         8.2.1
-TripleA                                   TripleAGame.TripleA                       2.5.22294
-Codespace                                 TristanEdwards.Codespace                  1.6.1
-Trivia                                    Trivia-Bot-Apps.trivia-desktop            1.5.1
-Diffinity                                 TrueHumanDesign.Diffinity                 0.9.4
-Ganache                                   Trufflesuite.Ganache                      2.7.1
-КриптоАРМ ГОСТ                            TrustedRu.CryptoARMGOST                   2.5
-Tulip Player                              Tulip.TulipPlayer                         2.8.2
-Tunepack                                  Tunepack.Tunepack                         1.2.1
-AceMovi Video Editor                      TunesKit.AceMovi                          4.10.0.160
-TunnelBear                                TunnelBear.TunnelBear                     4.13.2.0
-Turtle Beach Audio Hub                    TurtleBeach.AudioHub                      9.0.8.0
-ROCCAT Swarm                              TurtleBeach.ROCCATSwarm                   1.9478.0.0
-Tutanota Desktop                          Tutanota.Tutanota                         299.250725
-TuxGuitar                                 TuxGuitar.TuxGuitar                       1.6.6
-Tweag.Topiary                             Tweag.Topiary                             0.6.1
-miniWOL                                   Tweaking4All.MiniWOL2                     2.1.3
-Rename My TV Series                       Tweaking4All.RenameMyTVSeries             2.0.10
-TweakShot Screen Capture                  TweakingTechnologies.TweakShotScreenCapt 1.0.25.102
-Links WWW Browser                         TwibrightLabs.Links                       2.3
-Twingate                                  Twingate.Client                           2025.175.4
-Twinkstar Browser                         Twinkstar.TwinkstarBrowser                10.8.1000.
-twintaillauncher                          TwintailTeam.TTL                          1.0.4
-Weigh Station                             Twistedst.scale-serial-reader             1.0.5
-Torpedo Remote                            TwonotesAudioEngineering.TorpedoRemote    5.4.14
-Wally                                     Ty&Neal.Wally                             1.57
-Electorrent                               Tympanix.Electorrent                      2.8.5
-TypeFaster Typing Tutor                   TypeFaster.TypeFaster                     0.4.2
-DiscordChatExporter.CLI                   Tyrrrz.DiscordChatExporter.CLI            2.45
-DiscordChatExporter.GUI                   Tyrrrz.DiscordChatExporter.GUI            2.46
-gemini-next-chat                          U14.GeminiNextChat                        1.10.1
-Tesseract-OCR - open source OCR engine    UB-Mannheim.TesseractOCR                  5.4.0.2024
-绿联私有云                                UGREEN.UGREENNAS                          5.0.0
-绘画助手                                  ULAB.PaintAid                             2.7.2.0
-小旨管家                                  ULAB.XZAid                                1.1
-Ut Video Codec Suite                      UMEZAWATakeshi.UtvideoCodecSuite          23.2.0
-EPANET                                    USEPA.EPANET                              2.2.0
-EasyTerm                                  UZ7HO.EasyTerm                            4.9
-WiFiman Desktop                           Ubiquiti.WiFimanDesktop                   1.1.3
-Chroma                                    Ubisoft.Chroma                            Open Sourc
-SpaceSniffer                              UderzoSoftware.SpaceSniffer               1.3.0.2
-UFRaw                                     UdiFuchs.UFRaw                            0.19.2
-Ultimaker Cura                            Ultimaker.Cura                            5.10.1
-UHK Agent                                 UltimateGadgetLaboratories.UHKAgent       8.0.0
-Ultra                                     Ultra.Ultra                               5.0.5.0
-Ultra Defragmenter                        UltraDefrag.UltraDefrag                   7.1.4
-UltraStar WorldParty                      UltraStarEspana.UltraStarWorldParty       21.02
-Alchemist                                 Unibo.Alchemist                           42.2.7
-Uniconta                                  Uniconta.Uniconta                         94.0.0008
-NetCDF                                    Unidata.NetCDF                            4.9.3
-Unifaun OnlinePrinter                     Unifaun.UnifaunOnlinePrinter              1.0.56
-Heaven Benchmark                          Unigine.HeavenBenchmark                   4
-Unigine Superposition Benchmark           Unigine.SuperpositionBenchmark            1.1
-Unigine Valley Benchmark                  Unigine.ValleyBenchmark                   1
-Deepin Cloud Scan Server                  UnionTech.DeepinCloudScanServer           1.0.0.1
-Tuanjie Hub                               Unity.TuanjieHub                          1.3.3
-UnityExtractor                            UnityExtractor.UnityExtractor             0.1.3
-Universal Android Debloater Next Generat Universal-Debloater-Alliance.uad-ng       1.1.2
-Universal Ctags                           UniversalCtags.Ctags                      6.1.0
-Universal Ctags                           UniversalCtags.Ctags.Nightly              2022.12.14
-Universal Media Server                    UniversalMediaServer.UniversalMediaServer 14.12.1
-JASP                                      UniversityOfAmsterdam.JASP                0.19.3.0
-praat                                     UniversityOfAmsterdam.praat               6.4.39
-QuPath                                    UniversityOfEdinburgh.QuPath              0.6.0
-Orange                                    UniversityOfLjubljana.Orange              3.39.0
-Weka                                      UniversityOfWaikato.Weka                  3.9.6
-Foldit                                    UniversityOfWashington.Foldit             44
-Unknown-Horizons                          Unknown-HorizonsTeam.Unknown-Horizons     2019.1
-STL-Thumb                                 UnlimitedBacon.STL-Thumb                  0.5.0
-CS2D                                      UnrealSoftware.CS2D                       1.0.1.3
-Wally                                     UpliftGames.wally                         0.3.2
-Upscayl                                   Upscayl.Upscayl                           2.15.0
-UrBackup Client                           UrBackup.UrBackup.Client                  2.5.25
-UrBackup Server                           UrBackup.UrBackup.Server                  2.5.33
-白描桌面版                                Uzero.ScanScan                            0.3.3
-VALD ForceDecks Suite                     VALD.ForceDecksSuite                      2.1.1.50002
-VALD ForceFrame                           VALD.ForceFrame                           3.5.2.0
-VALD NordBord                             VALD.NordBord                             3.5.2.0
-Voicemeeter                               VB-Audio.Voicemeeter                      1.1.1.8
-Voicemeeter Banana                        VB-Audio.Voicemeeter.Banana               2.1.1.8
-Voicemeeter Potato                        VB-Audio.Voicemeeter.Potato               3.1.1.8
-VBAN Receptor                             VBurel.VBAN.Receptor                      1.0.0.5
-VBAN Talkie                               VBurel.VBAN.Talkie                        1.0.0.6
-VCV Rack                                  VCVRack.VCVRack                           2.6.4
-VK Messenger                              VKontakte.VKMessenger                     5.3.2
-Zalo                                      VNGCorp.Zalo                              25.7.2
-CeVIO Voice Package - 結月ゆかり 麗       VOCALOMAKETS.YuzukiYukariRei              2.0.0
-iBackupBot for Windows                    VOWSoft.iBackupBot                        5.6.3
-VPNetwork LLC - TorGuard - Online Privac VPNetwork.TorGuard                        4.8.28
-VRChat Creator Companion                  VRChat.CreatorCompanion                   2.3.2
-ProfiCAD                                  VaclavJedlicka.ProfiCAD                   13.1.4
-Poedit                                    VaclavSlavik.Poedit                       3.6.3
-GeoTSOL 2025                              ValentinSoftware.GeoTSOL.2025             GeoTSOL 20
-PVSOL 2025                                ValentinSoftware.PVSOL.2025               2025.3
-PVSOL premium 2025                        ValentinSoftware.PVSOL.Premium.2025       2025.8
-Steam                                     Valve.Steam                               2.10.91.91
-SteamCMD                                  Valve.SteamCMD                            2.2.95.35
-Steam Link                                Valve.SteamLink                           1.3.15
-VapourSynth                               VapourSynth.VapourSynth                   R72
-VariCAD                                   VariCAD.VariCAD                           2025-2.01
-VariCAD Viewer                            VariCAD.VariCADViewer                     2025-2.01
-Binary Ninja                              Vector35.BinaryNinja                      5.1.8005
-VeeCAD                                    VeeCAD.VeeCAD                             2.45.0
-Veeam Agent for Microsoft Windows         Veeam.VeeamAgent                          6.3.2.1205
-Velociraptor                              Velocidex.Velociraptor                    0.65.3
-Airshipper                                Veloren.Airshipper                        0.16.0
-Vencord                                   Vendicated.Vencord                        1.4.0
-Vencord                                   Vendicated.Vencord.Canary                 1.3.1
-Vencord                                   Vendicated.Vencord.PTB                    1.4.0
-MediaMonkey                               VentisMedia.MediaMonkey.2024              2024.1.0.3
-MediaMonkey                               VentisMedia.MediaMonkey.4                 4.1
-MediaMonkey                               VentisMedia.MediaMonkey.5                 5
-Veracode CLI                              Veracode.CLI                              2.37.0
-One Talk                                  Verizon.OneTalk                           3.5.1
-Vernier Graphical Analysis                Vernier.VernierGraphicalAnalysis          6.2.1-3963
-Vernier Instrumental Analysis             Vernier.VernierInstrumentalAnalysis       2.0.0-1994
-Vernier Spectral Analysis                 Vernier.VernierSpectralAnalysis           5.0.0-2559
-不咕剪辑                                  Versa.MagiCut                             1.2.0
-saml2aws                                  Versent.saml2aws                          2.36.19
-HEIC File Converter                       Vertexshare.HEICFileConverter             1.2.0
-Webp Converter                            Vertexshare.WebpConverter                 1.2.0000
-Vial                                      Vial.Vial                                 0.7.4
-Blender Launcher                          VictorIX.BlenderLauncher                  2.4.6
-Victoria                                  Victoria.Victoria                         5.37
-BMV Reader                                VictronEnergy.BMVReader                   1.4.2
-VictronEnergy Data Control                VictronEnergy.DataControl                 2.03
-Impulse Charger Tool                      VictronEnergy.ImpulseChargerTool          1.0.0
-Video Comparer                            VideoComparer.VideoComparer               1.7.12
-VLC media player                          VideoLAN.VLC                              3.0.21
-VLC media player                          VideoLAN.VLC.Nightly                      4.0.0.0-ni
-x264                                      VideoLAN.x264                             3204
-myViewBoard Display                       ViewSonic.myViewBoard.Display             1.0.30.3
-myViewBoard Whiteboard                    ViewSonic.myViewBoard.Whiteboard          3.2.0.749
-Kotobee Author                            Vijua.KotobeeAuthor                       1.9.1
-Kotobee Narrator                          Vijua.KotobeeNarrator                     1.0.1
-Kotobee Reader                            Vijua.KotobeeReader                       1.9.0
-Python Launcher                           VinaySajip.PythonLauncher                 1.0.1.6
-Harmony                                   VincentL.Harmony                          0.9.1
-UDS Enterprise Client                     VirtualCable.UDSClient                    3.6.0.18670
-Virtual Desktop Streamer                  VirtualDesktop.Streamer                   1.34.6
-TurboVNC                                  VirtualGL.TurboVNC                        3.2
-VirtualGL-Utils                           VirtualGL.VirtualGL                       3.0.1
-VirtualHere USB Client                    VirtualHere.USBClient                     5.9.1
-VirtualHere USB Server                    VirtualHere.USBServer                     4.8.1
-Virtual Magnifying Glass                  VirtualMagnifyingGlass.VirtualMagnifying 3.6
-Scala CLI                                 VirtusLab.ScalaCLI                        1.8.4
-Virtuworks Autopilot                      Virtuworks.MSPControlAutopilot            2.0.73
-VirusTotal Uploader                       VirusTotal.VirusTotalUploader             2.2
-YARA                                      VirusTotal.YARA                           4.5.4
-YARA-X                                    VirusTotal.YARA-X                         1.4.0
-vt-cli                                    VirusTotal.vt-cli                         1.1.1
-Visual Boy Advance - M                    VisualBoyAdvance-M.VisualBoyAdvance-M     2.2.1
-VisualGPSView                             VisualGPS.VisualGPSView                   1.1.401
-Visual Paradigm CE                        VisualParadigm.Community                  17.2
-Visual Paradigm                           VisualParadigm.VisualParadigm             17.2
-Visual Paradigm CE                        VisualParadigm.VisualParadigm.Community   17.2
-Visual Paradigm Project Viewer            VisualParadigm.VisualParadigmViewer       17.2
-VisualSVN Repository Configurator         VisualSVNSoftwareLtd.VisualSVNRepository 5.0.3.0
-VisualSVN Server                          VisualSVNSoftwareLtd.VisualSVNServer      5.0.3.0
-Vita3K                                    Vita3K.Vita3K                             0.2.0.3799
-Vivaldi                                   Vivaldi.Vivaldi                           7.5.3735.56
-Vivaldi (Snapshot)                        Vivaldi.Vivaldi.Snapshot                  7.5.3735.34
-Catime                                    VladElaina.Catime                         1.1.2
-ElectronMail                              VladimirYakovlev.ElectronMail             5.3.0
-维克日记                                  VoSoft.VicDiary                           0.6.0
-TinyCodes                                 Vogan.TinyCodes                           0.7.1
-VoiceAttack                               VoiceAttack.VoiceAttack                   2.1.6
-Jamulus                                   VolkerFischer.Jamulus                     3.11.0
-Volta                                     Volta.Volta                               2.0.2
-myVGL                                     VolumeGraphics.myVGL                      2025.1
-Vonage Business                           Vonage.VonageBusiness                     2.23.0
-Vrew                                      VoyagerX.Vrew                             3.1.6
-ChordPro                                  Vromans.ChordPro                          6.70.7.2
-WACUP Installer                           WACUP.WACUP                               1.99.12.18
-EasyPal                                   WASSTV.EasyPal                            7
-VideoCaptioner                            WEIFENG2333.VideoCaptioner                1.3.3
-AMR Interpretation Engine                 WHONET.AMRIE                              25.4.3
-WHONET Automation Tool                    WHONET.AutomationTool                     22.7.19
-Tamara                                    WHTA.Tamara                               2025.2.5.0
-WK Radar                                  WK.WKRadar                                7.15.0
-Wacom Tablet                              Wacom.WacomTabletDriver                   6.4.10-3
-Display Driver Uninstaller                Wagnardsoft.DisplayDriverUninstaller      18.1.2.2
-WagoApp                                   Wago.Addons                               2.5.7
-Wakatime for Desktop                      Wakatime.DesktopWakatime                  2.1.7
-WalkMe Editor                             WalkMe.WalkMeEditor                       5.2.0
-giddh                                     WalkoverTechnologies.giddh                8.0.8
-MWD Client for Windows                    Wanpath.MyWorkDriveClient                 7.1.1.22
-Warcraft Logs Uploader                    WarcraftLogs.Uploader                     8.17.45
-Wargaming.net Game Center                 Wargaming.GameCenter                      24.0.0.5034
-World of Warships ModStation              Wargaming.WorldOfWarshipsModStation       2.1.0.2
-Warp                                      Warp.Warp                                 v0.2025.07
-Terraform Switcher                        Warrensbox.TerraformSwitcher              0.13.1308
-Warzone 2100                              Warzone2100Project.Warzone2100            4.5.5
-WasmEdge                                  WasmEdge.WasmEdge                         0.14.1
-Wasmer                                    Wasmer.Wasmer                             6.0.1
-WatchGuard Mobile VPN with SSL client     WatchGuard.MobileVPNWithSSLClient         12.11.3
-WatchGuard Authentication Client          WatchGuard.WatchGuardAuthenticationClient 12.7.0
-WatchGuard Authentication Gateway         WatchGuard.WatchGuardAuthenticationGatew 12.10.2
-WatchGuard System Manager                 WatchGuard.WatchGuardSystemManager        12.11.3
-WatchGuard Terminal Service Agent         WatchGuard.WatchGuardTerminalServiceAgent 12.11.2
-Mazerator                                 WaterbugStudios.Mazerator                 0.0.2
-Waterfox                                  Waterfox.Waterfox                         6.5.10
-ClashRS                                   Watfaq.ClashRS                            0.8.1
-PowerSession                              Watfaq.PowerSession                       0.1.12
-Igor Pro 6                                WaveMetrics.IgorPro.6                     6.3.7.2
-Igor Pro 6 (64-bit)                       WaveMetrics.IgorPro.6.x64                 6.3.7.2
-Igor Pro 7                                WaveMetrics.IgorPro.7                     7.0.8.1
-Igor Pro 8                                WaveMetrics.IgorPro.8                     8.0.4.2
-Igor Pro 9                                WaveMetrics.IgorPro.9                     9.0.5.1
-Waves Central                             WavesAudio.WavesCentral                   16.0.7.209
-CloudDrive2                               Waytech.CloudDrive2                       1
-Terraformer                               WazeSRE.Terraformer                       0.8.24
-Wazuh Agent                               Wazuh.WazuhAgent                          4.12.0
-WeMod Beta                                WeMod.WeMod.Beta                          10.23.0-be
-WeakAuras Companion                       WeakAuras.WeakAurasCompanion              5.2.10
-Weasis                                    WeasisTeam.Weasis                         4.6.2
-WebCatalog                                WebCatalogLtd.WebCatalog                  46.2.0
-WinBGP                                    WebalexEU.WinBGP                          1.1.4
-Webrandt.Ax                               1.0.0
-Webroot SecureAnywhere                    Webroot.SecureAnywhere                    9.0.40.53
-Wu10Man                                   WereDev.Wu10Man                           4.4.0.0
-GoYogiyo                                  Wesang.Yogiyo                             4.0.6
-Battle for Wesnoth                        Wesnoth.BattleForWesnoth                  1.18.4
-Markdown Monster                          WestWind.MarkdownMonster                  3.8.5.0
-Kitfox                                    WesternDigital.Kitfox                     1.1.1.0
-WD Security                               WesternDigital.Security                   2.1.4.358
-Strawberry Music Player                   WetOtter44.StrawberryMusicPlayer.MSVC     1.2.10
-Strawberry Music Player                   WetOtter44.StrawberryMusicPlayer.MinGW    1.2.10
-hale studio                               Wetransform.HaleStudio                    5.4.0
-WhatPulse                                 WhatPulse.WhatPulse                       5.8.2
-SignalRgb                                 WhirlwindFX.SignalRgb                     2.2.32
-WiX Toolset Additional Tools              WiXToolset.WiXAdditionalTools             6.0.1
-Widelands                                 WidelandsDevelopmentTeam.Widelands        1.2.1
-W&T COM Port Redirector Legacy            Wiesemann-Theis.Com-Legacy                3.94
-W&T COM Port Redirector Plug & Play       Wiesemann-Theis.Com-PnP                   4.46
-OPC Server for W&T Network Devices        Wiesemann-Theis.NetworkOPC                4.9
-Sensobase                                 Wiesemann-Theis.Sensobase                 4.45
-W&T USB Redirector                        Wiesemann-Theis.USB-Redirector            3.86
-WuTility                                  Wiesemann-Theis.WuTility                  4.85
-WiiLinkPatcherGUI                         WiiLink24.PatcherGUI                      1.1.2
-WikidPad                                  WikidPad.WikidPad                         2.3rc02
-WikidPad (Alpha)                          WikidPad.WikidPad.Alpha                   2.4alpha01
-AutoWikiBrowser                           WikimediaProject.AutoWikiBrowser          6.4.0.0
-Huggle                                    WikimediaProject.Huggle                   3.4.13
-Frescobaldi                               WilbertBerendsen.Frescobaldi              3.3.0
-0 A.D.                                    WildfireGames.0AD                         0.27.0
-Wildix Collaboration                      Wildix.WildixCollaboration                2.6.13
-Difftastic                                Wilfred.difftastic                        0.64.0
-NetRadio                                  WilhelmHappe.NetRadio                     2.5.6.0
-Anvil Studio                              WillowSoftware.AnvilStudio                2024.08.01
-Win32DiskImager                           Win32diskimager.win32diskimager           1.0.0
-WinAuth                                   WinAuth.WinAuth                           3.6.2
-WinDirStat                                WinDirStat.WinDirStat                     2.2.2
-WinDirStat (Beta)                         WinDirStat.WinDirStat.Beta                2.2.3.2025
-WinEdt                                    WinEdtTeam.WinEdt                         11.2
-WinFsp 2024 Beta2                         WinFsp.WinFsp.Beta                        2.1.24255
-WinMerge Beta                             WinMerge.WinMerge.Beta                    2.16.35.0
-WinUAE                                    WinUAE.WinUAE                             6.0.0
-Winamp                                    Winamp.Winamp                             5.91.0.100
-Cashcash                                  Winbee.cashcash                           1.2.2
-Wind Financial Terminal                   Wind.WindFinancialTerminal                25.5.0
-CopyTrans Control Center                  WindSolutions.CopyTransControlCenter      5.003
-Universal Silent Switch Finder            WindowsPostInstallWizard.UniversalSilent 1.5.0.0
-Wing 101                                  Wingware.Wing.101                         11.0.2.0
-Wing Personal                             Wingware.Wing.Personal                    11.0.2.0
-Wing Pro                                  Wingware.Wing.Pro                         11.0.2.0
-System Informer (Canary)                  WinsiderSS.SystemInformer.Canary          3.2.25205.
-WireGuard                                 WireGuard.WireGuard                       0.5.3
-Stratoshark                               WiresharkFoundation.Stratoshark           0.9.2
-Wireshark                                 WiresharkFoundation.Wireshark             4.4.8
-MathType 7                                Wiris.MathType.7                          7.8.2
-AutoScreenRecorder                        WisdomSoftware.AutoScreenRecorder         5.0.781
-Free Media Player                         WisdomSoftware.FreeMediaPlayer            1.0.109
-MotionGIF                                 WisdomSoftware.MotionGIF                  4.1
-MotionStudio                              WisdomSoftware.MotionStudio               4.1
-ScreenHunter                              WisdomSoftware.ScreenHunter               7.0.1461
-Wise Registry Cleaner                     WiseCleaner.RegistryCleaner.Portable      11.1.10
-Wise AD Cleaner                           WiseCleaner.WiseADCleaner                 1.2.7
-Wise Care 365                             WiseCleaner.WiseCare365                   7.2.6
-Wise Data Recovery                        WiseCleaner.WiseDataRecovery              6.2.0
-Wise Disk Cleaner                         WiseCleaner.WiseDiskCleaner               11.2.4
-Wise Duplicate Finder                     WiseCleaner.WiseDuplicateFinder           2.1.8
-Wise Folder Hider                         WiseCleaner.WiseFolderHider               5.0.8
-Wise Force Deleter                        WiseCleaner.WiseForceDeleter              1.5.7
-Wise Game Booster                         WiseCleaner.WiseGameBooster               1.5.7
-Wise Hotkey                               WiseCleaner.WiseHotKey                    1.2.8
-Wise ImageX                               WiseCleaner.WiseImageX                    1.5.1
-Wise JetSearch                            WiseCleaner.WiseJetSearch                 4.1.4
-Wise Memory Optimizer                     WiseCleaner.WiseMemoryOptimizer           4.2.2
-Wise Note                                 WiseCleaner.WiseNote                      1.0.2
-Wise Program Uninstaller                  WiseCleaner.WiseProgramUninstaller        3.2.5
-Wise Registry Cleaner                     WiseCleaner.WiseRegistryCleaner           11.2.2
-Wise Toys                                 WiseCleaner.WiseToys                      1.0.5
-Wise Video Converter                      WiseCleaner.WiseVideoConverter            3.1.4
-WiseX                                     WiseCleaner.WiseX                         1.0.2
-辅导猫                                    Wisedu.CAT                                1.0.4
-Modbus Poll                               WitteSoftware.ModbusPoll                  11.1.0.2396
-Modbus Slave                              WitteSoftware.ModbusSlave                 9.5.0.2346
-MTGA Launcher                             WizardsoftheCoast.MTGALauncher            1.0.98
-JiDuDocumentClear                         WlhEx.JiduDocumentClear                   1.1.1
-Wolfram Engine 14.2                       WolframResearch.WolframEngine             14.2.0
-Animiz Animation Maker                    WonderIdea.Animiz                         2.5.8
-Flip PDF Plus                             WonderIdea.FlipPDFPlus                    7.2.4
-Flip PDF Plus Corporate                   WonderIdea.FlipPDFPlus.Corporate          7.8.4
-Flip PDF Plus Pro                         WonderIdea.FlipPDFPlus.Pro                6.6.4
-Focusky                                   WonderIdea.Focusky                        4.0.2
-Mango AM                                  WonderIdea.MangoAnimationMaker            3.0.802
-Mango CM                                  WonderIdea.MangoCharacterMaker            2.4.600
-Mango PM                                  WonderIdea.MangoPresentationMaker         4.8.561
-Mango Video Maker                         WonderIdea.MangoVideoMaker                1.0.200
-Mango Whiteboard Animation Maker          WonderIdea.MangoWhiteboardAnimationMaker  2.3.100
-PUB HTML5                                 WonderIdea.PUBHTML5                       5.8.5
-万彩影像大师                              WonderIdea.YXVideoMaker                   3.0.5
-Wondershare Ani3D                         Wondershare.Ani3D                         1.0.2.26
-Wondershare AniSmall                      Wondershare.AniSmall                      1.0.7.64
-Wondershare Anireel                       Wondershare.Anireel                       2.3.2
-Wondershare Creative Center               Wondershare.CreativeCenter                1.0.15
-Wondershare Cropro                        Wondershare.Cropro                        1.0.3.45
-Wondershare DVD Creator                   Wondershare.DVDCreator                    6.6.0.1
-Wondershare DemoCreator                   Wondershare.DemoCreator                   8.8.2
-万兴录演                                  Wondershare.DemoCreator.CN                8.0.1
-Wondershare FamiSafe                      Wondershare.FamiSafe                      6.1.8.53
-Wondershare Filmii                        Wondershare.Filmii                        1.7.3
-Wondershare Filmora                       Wondershare.Filmora                       14.7.18.13
-万兴喵影                                  Wondershare.Filmora.CN                    14.7.17.13
-Wondershare FilmoraPro                    Wondershare.Filmora.Pro                   2.6.11519.
-Fotophire Photo Focus                     Wondershare.Fotophire.Focus               1.3.1
-Fotophire Photo Maximizer                 Wondershare.Fotophire.Maximizer           1.3.1
-Wondershare Fotophire Slideshow Maker     Wondershare.Fotophire.SlideshowMaker      10.0.3
-Fotophire Toolkit                         Wondershare.Fotophire.Toolkit             1.3.1
-Wondershare HiPDF                         Wondershare.HiPDF                         1.0.3
-Wondershare InClowdz                      Wondershare.InClowdz                      2.0.9
-Wondershare MirrorGo                      Wondershare.MirrorGo                      2.0.11.346
-Wondershare MobileTrans                   Wondershare.MobileTrans                   5.0.0
-Wondershare Mockitt                       Wondershare.Mockitt                       6.0.0
-mockingbot-studio                         Wondershare.Mockitt.CN                    1.5.4
-Wondershare PDF Converter Pro             Wondershare.PDFConverter.Pro              5.1.0
-Wondershare PDF Password Remover          Wondershare.PDFPasswordRemover            1.5.3
-Wondershare PDF Reader                    Wondershare.PDFReader                     1.0.12
-万兴PDF阅读器                             Wondershare.PDFReader.CN                  1.0.12
-Wondershare PDFelement                    Wondershare.PDFelement.10                 10.4.10
-Wondershare PDFelement                    Wondershare.PDFelement.11                 11.4.21
-Wondershare PDFelement 6                  Wondershare.PDFelement.6                  6.8.9.4193
-Wondershare PDFelement 6 Pro              Wondershare.PDFelement.6.Pro              6.8.9.4193
-Wondershare PDFelement                    Wondershare.PDFelement.7                  7.6.10.5064
-Wondershare PDFelement                    Wondershare.PDFelement.8                  8.4.13
-Wondershare PDFelement                    Wondershare.PDFelement.9                  10.4.5
-万兴PDF                                   Wondershare.PDFelement.CN                 11.4.23
-Wondershare Recoverit                     Wondershare.Recoverit                     13.5.23.9
-万兴恢复专家                              Wondershare.Recoverit.CN                  8.0.9.7
-Wondershare Repairit                      Wondershare.Repairit                      6.5.11.12
-万兴易修                                  Wondershare.Repairit.CN                   4.0.11.1
-Wondershare UBackit                       Wondershare.UBackit                       4.0.18.8
-Wondershare UniConverter 13               Wondershare.UniConverter.13               13.6.4.1
-Wondershare UniConverter 14               Wondershare.UniConverter.14               14.1.11.147
-Wondershare UniConverter 15               Wondershare.UniConverter.15               15.7.3.47
-Wondershare UniConverter 16               Wondershare.UniConverter.16               16.5.8.318
-万兴优转                                  Wondershare.UniConverter.CN               14.0.11.49
-Wondershare Virbo                         Wondershare.Virbo                         1.5.30
-万兴播爆                                  Wondershare.Virbo.CN                      1.5.30
-万兴数据管家                              Wondershare.WXRecovery                    3.5.20.4
-Baemin Order Relay                        WoowaBrothersCorp.BaeminOrder             0.8.3690.63
-Planning for Excel                        WorkdayInc.PlanningforExcel               2024.209.1
-Workrave                                  Workrave.Workrave                         1.10.53
-WORKS                                     WorksMobile.NAVERWORKS                    4.3.1.9
-Anywhere365 Integrator                    Workstreampeople.Anywhere365Integrator    1.0.0.1
-WowUp beta                                WowUp.Beta                                2.9.0-beta
-WowUp with CurseForge beta                WowUp.CFbeta                              2.9.1-beta
-wolai                                     Woyun.wolai                               1.2.11
-Crystal Disk Info                         WsSolInfor.CrystalDiskInfo                9.6.2
-ValiDrive                                 WsSolInfor.ValiDrive                      1.0.1
-Sonic Adventure Mod Manager               X-Hax.SAModManager                        1.3.3
-tokei                                     XAMPPRocky.Tokei                          12.1.2
-Kodi                                      XBMCFoundation.Kodi                       21.2.0.0
-CeVIO Voice Package - Color Voice Series XINGInc.AkasakiMinato                     1.1.2
-CeVIO Voice Package - Color Voice Series XINGInc.GinsakiYamato                     1.1.2
-CeVIO Voice Package - ハルオロイド・ミナ XINGInc.HAL-O-ROIDMinami                  2.0.0
-CeVIO Voice Package - Color Voice Series XINGInc.KinzakiKoharu                     1.1.2
-CeVIO Voice Package - Color Voice Series XINGInc.KizakiAiri                        1.1.2
-CeVIO Voice Package - Color Voice Series XINGInc.MidorizakiKasumi                  1.1.2
-CeVIO Voice Package - Color Voice Series XINGInc.ShirosakiYuudai                   1.1.2
-CloudflareSpeedTest                       XIU2.CloudflareSpeedTest                  2.3.2
-Charles Proxy                             XK72.Charles                              5.0.1.3
-UPnP Wizard                               XLDevelopment.UPnPWizard                  3.4.0.3
-XMedia Recode                             XMediaRecode.XMediaRecode                 3.6.1.3
-Xray-core                                 XTLS.Xray-core                            25.6.8
-Icaros                                    Xanashi.Icaros                            3.3.3.301
-Afformation Requester                     Xanthus58.AfformationRequester            2.2
-Still Alive                               Xanthus58.PortalStillAlive                1
-Rock Paper Scissors CLI                   Xanthus58.RockPaperScissorsCLI            1.1
-Stanlys_Terminal                          Xanthus58.Stanlys_Terminal                1.0.0
-Valorant Randomizer                       Xanthus58.ValorantRandomizer              1.3.2
-VanillaRenewed                            Xanthus58.VanillaRenewed                  2.3.0
-WinHTTrack Website Copier                 XavierRoche.HTTrack                       3.49.2
-Xcas                                      Xcas.Xcas                                 1.9.0
-Xcas                                      Xcas.Xcas.MinGW                           2.0.0-3
-Xencelabs Driver                          Xencelabs.Driver                          1.3.5-90
-Xenia                                     Xenia.Xenia                               1.0.2817
-XeniaCanary                               Xenia.XeniaCanary                         57a23cf19
-Ghost Downloader                          XiaoYouChR.GhostDownloader                3.5.12
-CAD迷你画图                               Xiaocai.MiniCADDraw                       2025R2
-CAD迷你家装                               Xiaocai.MiniCADHome                       2022R1
-CAD迷你看图                               Xiaocai.MiniCADSee                        2025R3.1
-小鹅通助手                                Xiaoe.Xiaoetong                           1.10.40
-MIUI+                                     Xiaomi.MIUI+                              2.5.5.643
-Mi Phone Assistant                        Xiaomi.MiAssistant                        4.2.1028.10
-MiService                                 Xiaomi.MiService                          3.3.0.293
-Xiaomi Cloud                              Xiaomi.XiaomiCloud                        3.0.2
-KOOK                                      Xiaoyaoyixia.KOOK                         0.95.7
-Xibo Player                               XiboSignage.XiboPlayer                    4.405.3
-Agent Git                                 Xidicone.AgentGit                         1.88
-Agent SVN                                 Xidicone.AgentSVN                         2.75
-喜马拉雅                                  Ximalaya.Ximalaya                         4.0.6
-喜马拉雅直播助手                          Ximalaya.XimalayaLive                     4.66.972
-Xink Client AD                            Xink.XinkClientAD                         3.2.41
-FLAC                                      Xiph.FLAC                                 1.5.0
-Mogan Research                            XmacsLabs.Mogan                           1.2.9.7
-XMake build utility                       Xmake-io.Xmake                            3.0.1+2025
-AlistHelper                               Xmarmalade.AlistHelper                    v0.2.0
-OpenSCA-cli                               XmirrorSecurity.OpenSCA-cli               3.0.7
-XnView                                    XnSoft.XnView.Classic                     2.52.2
-Xournal++                                 Xournal++.Xournal++                       1.2.7
-XplicitTrust Network Access               XplicitTrust.Agent                        1.022
-即时设计                                  XueyunRuiChuang.JsDesign                  1.0.7
-jsDesignAgent                             XueyunRuiChuang.JsDesignAgent             1.3
-Y8 Browser                                Y8Games.Y8Browser                         1.0.11
-Yet Another Bacnet Explorer               YABE.YetAnotherBacnetExplorer             2.0.0
-YACReader                                 YACReader.YACReader                       9.15.0
-YARC Launcher                             YARC.YARCLauncher                         v1.0.2
-PstRotator                                YO3DMU.PstRotator                         17.7
-PstRotatorAz                              YO3DMU.PstRotatorAz                       14.96
-kaf-cli                                   YSTYLE.kaf-cli                            1.3.13
-kaf-wifi                                  YSTYLE.kaf-wifi                           1.0.5
-YYAnchor                                  YY.YYAnchor                               3.3.0.4722
-YY调音台                                  YY.YYAudio                                1.23.2.0
-YaCy                                      YaCy.YaCy                                 1.924
-SimpleCom                                 YaSuenag.SimpleCom                        1.2.6
-hvcp                                      YaSuenag.hvcp                             0.1.0.0
-Yaak                                      Yaak.app                                  2025.5.4
-Audio Phraser                             Yamaha.AudioPhraser                       1.0.1
-Yamaha Expansion Manager                  Yamaha.ExpansionManager                   2.11.0
-Musicsoft Downloader                      Yamaha.MusicsoftDownloader                5.7.6
-SYNCROOM Ver.2                            Yamaha.SYNCROOM                           2.0.4
-Yamaha Steinberg USB Driver               Yamaha.SteinbergUSBDriver                 2.1.9
-Yamaha THR Remote                         Yamaha.THRRemote                          1.5.0
-Yandere Simulator                         YandereDev.YandereSimulator               2025-06-03
-Yandex Browser                            Yandex.Browser                            25.6.3.328
-Yandex.Disk                               Yandex.Disk                               3.2.43.5094
-Yandex Messenger                          Yandex.Messenger                          2.235.0
-Яндекс Музыка                             Yandex.Music                              5.61.1
-kubeconform                               YannHamon.kubeconform                     0.7.0
-Yarn                                      Yarn.Yarn                                 1.22.22
-Yealink USB Connect                       Yealink.YealinkUSBConnect                 4.40.10.0
-Yealink USB Connect                       Yealink.YealinkUSBConnect.CN              1.39.12.0
-Official Krunker.io Client                YendisEntertainment.KrunkerClient         3.0.8
-YAPA-2                                    YetAnotherPomodoroApp.YAPA2               2.0.190
-Yggdrasil Network                         YggdrasilNetwork.Yggdrasil                0.5.12
-WebKitty                                  YikuanSun.WebKitty                        3.2.1
-Vs. Hex                                   YingYang48.VsHex                          D11
-GameMaker                                 YoYoGames.GameMaker.Studio.2              2024.13.1.
-优效日历                                  YouXiao.YXCalendar                        2.5.7.21
-YXFile                                    YouXiao.YXFile                            2.5.4.4
-Doom Runner                               Youda008.DoomRunner                       1.9.1
-网易有道翻译                              Youdao.YoudaoTranslate                    11.2.7.0
-点读笔助手                                Yuanfudao.TalkingPenAssistant             1.1.1
-猿辅导                                    Yuanfudao.Yuanfudao                       7.3.0
-uTools                                    Yuanli.uTools                             7.2.1
-Yubico Authenticator                      Yubico.Authenticator                      7.2.3
-YubiKey Manager CLI                       Yubico.YubiKeyManagerCLI                  5.7.2
-YubiKey Personalization Tool              Yubico.YubiKeyPersonalizationTool         3.1.25
-YubiKey Smart Card Minidriver             Yubico.YubiKeySmartCardMinidriver         4.6.3.252
-YubiKey Manager                           Yubico.YubikeyManager                     1.2.6
-Kocard                                    Yuejing.Kocard                            3.0.4
-Yumi Legacy (BIOS)                        YumiUsb.Legacy                            2.0.9.4
-WinLinker                                 YuminZhan.WinLinker                       1.0.0
-MultiPar                                  YutakaSawada.MultiPar                     1.3.2.9
-MultiPar                                  YutakaSawada.MultiPar.Beta                1.3.3.4
-Z-Cron                                    Z-DBackup.Z-Cron                          6.4.0.4
-Zed Attack Proxy                          ZAP.ZAP                                   2.16.0
-ZWSOFT Network License Manager            ZWSOFT.NetworkLicenseManager              1.3.9
-ZWCAD 2025                                ZWSOFT.ZWCAD.2025                         25.20.10.1
-ZWCAD 2026                                ZWSOFT.ZWCAD.2026                         26.5.0.181
-中望景园2025                              ZWSOFT.ZWCAD.Landscape.2025               25.0.1.1
-ZWCAD MFG 2025                            ZWSOFT.ZWCAD.Mechanical.2025              25.10.405.
-ZWCAD MFG 2026                            ZWSOFT.ZWCAD.Mechanical.2026              26.0.131.6
-ZWCAD Personal                            ZWSOFT.ZWCAD.Personal                     2.2.3
-ZWCAD Viewer                              ZWSOFT.ZWCADViewer                        2.2.1
-Zabbix Agent 2                            Zabbix.Agent.2                            7.2.6
-KeyEcho                                   ZacharyL2.KeyEcho                         0.0.5
-Eget                                      ZacharyYedidia.Eget                       1.3.4
-BSManager                                 Zagrios.BSManager                         1.5.3
-AVR-GCC                                   ZakKemble.avr-gcc                         14.1.0
-Zandronum                                 Zandronum.Zandronum                       3.2
-ZebraDesigner                             Zebra.ZebraDesigner.3                     3.2.2.649
-Zen Browser                               Zen-Team.Zen-Browser                      1.14.7b
-Zen Browser - Twilight                    Zen-Team.Zen-Browser.Twilight             1.15t
-Zenarmor                                  Zenarmor.Zenarmor                         2.0.2
-极空间                                    Zentraedi.ZSPACE                          2.4.202305
-Crowbar                                   ZeqMacaw.Crowbar                          00.74.00.00
-Studio                                    ZeroBrane.Studio                          2
-Zero Install                              ZeroInstall.ZeroInstall                   2.27.2
-Zeta Resource Editor                      ZetaSoftwareGmbH.ZetaResourceEditor       2.3.89.0
-Zettlr Beta                               Zettlr.Zettlr.Beta                        3.0.0-beta
 nGlide                                    ZeusSoftware.nGlide                       2.1
 鼠标/触控板全局手势                       ZhaoKeli.FastGestures                     2.2.54
 zg-ipchat Peer-to-peer chat tool          Zheguisoft.zg-ipchat                      1.00.05
@@ -2522,7 +1561,8 @@ qBittorrent (libtorrent 2)                qBittorrent.qBittorrent.lt2           
 360 极速浏览器X                           360.360Chrome.X                           22.3.3195.
 360企业安全浏览器                         360.360Ent                                13.1.2002.
 360游戏浏览器                             360.360GT                                 13.6.1047.0
-360安全浏览器                             360.360SE                                 16.1.2000.
+360安全浏览器                             360.360SE
+<#BOOKMARK#>                                16.1.2000.
 BrowserOS                                 BrowserOS.BrowserOS                       137.0.7186
 Cent Browser                              CentStudio.CentBrowser                    5.1.1130.1
 DuckDuckGo                                DuckDuckGo.DesktopBrowser                 0.120.4.0
