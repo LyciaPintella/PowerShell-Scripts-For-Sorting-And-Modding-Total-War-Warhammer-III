@@ -1,5 +1,5 @@
---[[
-/*
+<#
+winget show packagename will describe the package.
 ? upgrade --all
 
 ! Try after rebooting: install SamyGO.SammyWidgets #Sammy Widgets
@@ -23,34 +23,65 @@ winget install Microsoft.DotNet.Runtime.9
 winget install Microsoft.PowerShell
 winget install Microsoft.PowerShell.Preview
 
+winget install Dropbox.Dropbox #Dropbox
+winget install M2Team.NanaZip #NanaZip
+winget install M2Team.NanaZip.Preview #NanaZip Preview
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+
 winget install Mozilla.Firefox #Mozilla FireFox
 winget install Google.Chrome #Google Chrome
 winget install Google.ChromeRemoteDesktopHost #Google Chrome Remote Desktop
 winget install Opera.Opera #Opera Browser
 winget install Opera.OperaGX #Opera GX
-winget install
-winget install
-
-
-
-
-'
-& ? Integrated Development Environments (IDEs)
-
-winget install KDE.Kate
-winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Community Edition
-winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
-
-winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
-'
-
-'
-!
-'
-
 winget install Mozilla.Firefox #Mozilla FireFox
 
-/*'
+'
 & ? Integrated Development Environments (IDEs)
 
 winget install KDE.Kate
@@ -60,8 +91,53 @@ winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
 winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
 
 '
-? AI TOOLKIT
+
+winget install 9N7R5S6B0ZZH #MyAsus
+
+
+
+
+
+
+#'
+#& ? Integrated Development Environments (IDEs)
+
+winget install Microsoft.VisualStudioCode
+winget install Microsoft.VisualStudioCode.CLI
+winget install Microsoft.VisualStudioCode.Insiders
+winget install Microsoft.VisualStudioCode.Insiders.CLI
+winget install rjpcomputing.luaforwindows #Lua for Windows
+winget install 9NPR957HTH9Q #LuaBox
+winget install VSCodium.VSCodium #VSCodium
+winget install VSCodium.VSCodium.Insiders #VSCodium Insiders
+winget install Coder.CoderDesktop
+winget install EclipseFoundation.TheiaIDE
+winget install VSCodium.VSCodium
+winget install JonahFintzDEV.CommandPalette-VSCode #Command Palette - VS Code
+winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Workspace Launcher for VS Code
+winget install zokugun.MrCode #MrCode
+winget install KDE.Kate #Kate
+winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Community Edition
+winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
+winget install 9PBL2KQXQ47K #CorelDRAW
+
+
+
+
+
+
+
+
+#'
+
+
+winget install SystweakSoftware.AdvancedDriverUpdater
+
+#
+#? AI TOOLKIT
 winget install Ollama.Ollama #Ollama
+
+
 
 winget install 9PBL2KQXQ47K #CorelDRAW
 winget install 9N318R854RHH #Microsoft Journal
@@ -125,7 +201,8 @@ winget install Rambax.SimpleTransfer #Simple Transfer
 winget install RandomEngy.VidCoder #VidCoder
 winget install RealtimeSoft.UltraMon #UltraMon
 
-? Runs in command prompt, dlss-updater
+
+# Runs in command prompt, dlss-updater
 winget install Recol.DLSSUpdater #DLSS Updater
 winget install RedHat.Podman-Desktop #Podman Desktop
 winget install RevoLand.Steam-Library-Manager #Steam Library Manager
@@ -182,6 +259,14 @@ winget install
 winget install
 
 ' LINUX DISTROS
+<#
+winget uninstall 9P5RWLM70SN9 #AlmaLinux OS 9
+winget uninstall 9P41G2MV9CQ3 #Pistachio Linux
+winget uninstall Debian.Debian #Debian GNU/Linux
+winget uninstall Oracle.OracleLinux.9.54 #Oracle Linux 9.54
+winget uninstall whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
+winget uninstall SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
+winget uninstall SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
 
 winget install 9P5RWLM70SN9 #AlmaLinux OS 9
 winget install 9P41G2MV9CQ3 #Pistachio Linux
@@ -190,6 +275,7 @@ winget install Oracle.OracleLinux.9.54 #Oracle Linux 9.54
 winget install whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
 winget install SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
 winget install SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
+#>
 
 
 '
@@ -202,8 +288,7 @@ winget upgrade EpicGames.EpicGamesLauncher
 winget upgrade Discord.Discord
 
 '
-]]--
-*/
+<#
 
  CHECK LATER
 
@@ -214,7 +299,7 @@ SmarTTY                                   Sysprogs.SmarTTY                      
 Advanced Disk Recovery                    SystweakSoftware.AdvancedDiskRecovery     2.8.1233.1
 Advanced Driver Updater                   SystweakSoftware.AdvancedDriverUpdater    4.6.1086.7
 Advanced System Optimizer                 SystweakSoftware.AdvancedSystemOptimizer  3.81.8181.0
-Duplicate Files Fixer                     SystweakSoftware.DuplicateFilesFixer      1.2.1.964
+
 Duplicate Music Fixer                     SystweakSoftware.DuplicateMusicFixer      2.1.1000.1
 Duplicate Photos Fixer Pro                SystweakSoftware.DuplicatePhotosFixerPro  1.3.1086.1
 RegClean Pro                              SystweakSoftware.RegCleanPro              8.45.81.12
@@ -1816,7 +1901,7 @@ GammaLauncher                             sebescudie.GammaLauncher              
 CertDump                                  secana.CertDump                           1.1.5
 digiSeal reader                           secrypt.digiSealreader                    7.0.4.4
 Extraterm - Terminal emulator             sedwards2009.extraterm                    0.81.3
-G-Helper PreRelease                       seerge.g-helper.PreRelease                0.208
+
 shadowsocks-windows                       shadowsocks.shadowsocks-windows           4.4.1.0
 PS3 Media Server                          shagrath.PS3MediaServer                   1.90.1
 bat                                       sharkdp.bat                               0.25.0
@@ -3376,3 +3461,4 @@ mRemoteNG (Nightly)                       mRemoteNG.mRemoteNG.Nightly           
 Meson Build System                        mesonbuild.meson                          1.8.2
 scrumchrono                               pedrojreis.scrumchrono                    0.1.6
 Desktop Dimmer                            sidneys.desktop-dimmer                    4.0.4
+#>
