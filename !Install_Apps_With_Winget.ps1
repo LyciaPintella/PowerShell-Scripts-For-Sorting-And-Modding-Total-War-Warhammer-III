@@ -6,20 +6,36 @@ winget show packagename will describe the package.
 
 winget repair MSIX\MicrosoftWindows.CrossDevice_1.25071.30.0_x64__cw5n1h2txyewy
 
-winget install Microsoft.DotNet.DesktopRuntime.3_1
-winget install Microsoft.DotNet.Runtime.6
-winget install Microsoft.DotNet.DesktopRuntime.3_1
-winget install Microsoft.DotNet.DesktopRuntime.5
-winget install Microsoft.DotNet.DesktopRuntime.6
-winget install Microsoft.DotNet.DesktopRuntime.7
-winget install Microsoft.DotNet.DesktopRuntime.8
-winget install Microsoft.DotNet.DesktopRuntime.9
-winget install Microsoft.DotNet.Runtime.3_1
-winget install Microsoft.DotNet.Runtime.5
-winget install Microsoft.DotNet.Runtime.6
-winget install Microsoft.DotNet.Runtime.7
-winget install Microsoft.DotNet.Runtime.8
-winget install Microsoft.DotNet.Runtime.9
+winget install samlab-ws.SnappyDriverInstaller #Snappy Driver Installer Origin
+winget install Treexy.DriverFusion #Driver Fusion
+
+winget install SystweakSoftware.AdvancedDriverUpdater #Advanced Driver Updater
+
+winget install Recol.DLSSUpdater #DLSS Updater
+winget install Eassos.DiskGenius #DiskGenius
+winget install EZBSystems.UltraISO #UltraISO
+winget install C-PartnerSystemhausGmbH.DocuToolbox.AllFeatures #DocuToolbox All Features
+winget install EZBSystems.EasyBoot #EasyBoot
+
+
+
+
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+
+
+
+
+
+winget install Microsoft.Sysinternals.Suit #Sysinternals Suite
+
+
 winget install Microsoft.PowerShell
 winget install Microsoft.PowerShell.Preview
 
@@ -88,7 +104,7 @@ winget install KDE.Kate
 winget install Microsoft.VisualStudio.2022.Community #Visual Studio 2022 Community Edition
 winget install Alex313031.Codium #Codium https://itsfoss.com/vs-code-vs-codium/
 
-winget install 15722UsefulApp.WorkspaceLauncherForVSCode #Visual Studio / Code for Command Palette
+
 
 '
 
@@ -141,11 +157,7 @@ winget install Ollama.Ollama #Ollama
 
 winget install 9PBL2KQXQ47K #CorelDRAW
 winget install 9N318R854RHH #Microsoft Journal
-
 winget install 9P1HQ5TQZMGD #Microsoft Loop https://support.microsoft.com/en-us/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c
-
-
-
 winget install Google.WorkspaceSyncForMicrosoftOutlook #Google Workspace SyncTM for Microsoft Outlook
 winget install Microsoft.CmdPalGitHubExtension #GitHub extension for Command Palette
 winget install Microsoft.Edge.Beta #Microsoft Edge Beta
@@ -154,7 +166,6 @@ winget install Microsoft.LogParser #Log Parser 2.2
 winget install Microsoft.MUTT #Microsoft USB Hub and Controller Test Tool
 winget install Microsoft.MediaCreationTool #Media Creation Tool
 winget install XPDM5VSMTKQLBJ #Battle.net
-
 winget install Microsoft.winfile #Windows File Manager
 winget install Microsoft.XMLNotepad #XML Notepad
 winget install Grammarly.Grammarly.Office #Grammarly for Microsoft Office
@@ -170,7 +181,6 @@ winget install Discord.Discord #Discord
 winget install Naturalsoft.NaturalReader16 #NaturalReader 16
 winget install OBSProject.OBSStudio #OBS Studio
 winget install OffSec.KaliLinux #Kali Linux
-
 winget install OfficialAroCodes.AroCrypt #AroCrypt
 winget install OlavSortlandThoresen.ScreenCloud #ScreenCloud
 winget install OndrejSalplachta.AdvancedLogViewer #Advanced Log Viewer
@@ -216,29 +226,6 @@ winget install aandrew-me.ytDownloader #YouTube Downloader
 winget install  amir1376.ABDownloadManager #AB Download Manager
 winget install Ventoy.Ventoy #Ventoy
 winget install VictorIX.BlenderLauncher
-'
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> install Ventoy.Ventoy #Ventoy
-Found Ventoy [Ventoy.Ventoy] Version 1.1.05
-This application is licensed to you by its owner.
-Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Downloading https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-windows.zip
-  ██████████████████████████████  15.9 MB / 15.9 MB
-Successfully verified installer hash
-Extracting archive...
-Successfully extracted archive
-Starting package install...
-Path environment variable modified; restart your shell to use the new value.
-Command line alias added: "Ventoy2Disk"
-Command line alias added: "VentoyPlugson"
-Command line alias added: "VentoyVlnk"
-Successfully installed
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> ventoy2disk
-ventoy2disk: The term 'ventoy2disk' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-PS C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War> Ventoy2Disk
-Ventoy2Disk: The term 'Ventoy2Disk' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-'
 winget install CrowdSecurity.CrowdSec #CrowdSec
 winget install MultiViewer.MultiViewer #MultiViewer
 winget install 0xJacky.nginx-ui #nginx-ui
@@ -268,6 +255,7 @@ winget uninstall whitewaterfoundry.fedora-remix-for-wsl #Fedora Remix for WSL
 winget uninstall SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
 winget uninstall SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
 
+		<#LINUX DISTROS#>
 winget install 9P5RWLM70SN9 #AlmaLinux OS 9
 winget install 9P41G2MV9CQ3 #Pistachio Linux
 winget install Debian.Debian #Debian GNU/Linux
@@ -277,6 +265,59 @@ winget install SUSE.SUSE.15SP6 #SUSE Linux Enterprise 15 SP6
 winget install SUSE.openSUSE.Leap.15.6 #openSUSE Leap 15.6
 #>
 
+winget install LuculentSystems.BluetoothBatteryMonitor
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
+winget install
 
 '
 
@@ -2424,7 +2465,8 @@ qBittorrent (libtorrent 2)                qBittorrent.qBittorrent.lt2           
 360 极速浏览器X                           360.360Chrome.X                           22.3.3195.
 360企业安全浏览器                         360.360Ent                                13.1.2002.
 360游戏浏览器                             360.360GT                                 13.6.1047.0
-360安全浏览器                             360.360SE                                 16.1.2000.
+360安全浏览器                             360.360SE
+<#BOOKMARK#>                                16.1.2000.
 BrowserOS                                 BrowserOS.BrowserOS                       137.0.7186
 Cent Browser                              CentStudio.CentBrowser                    5.1.1130.1
 DuckDuckGo                                DuckDuckGo.DesktopBrowser                 0.120.4.0
@@ -3461,4 +3503,8 @@ mRemoteNG (Nightly)                       mRemoteNG.mRemoteNG.Nightly           
 Meson Build System                        mesonbuild.meson                          1.8.2
 scrumchrono                               pedrojreis.scrumchrono                    0.1.6
 Desktop Dimmer                            sidneys.desktop-dimmer                    4.0.4
+<<<<<<< HEAD
+=======
+
+>>>>>>> ed049e65536c4a9855a00f044c9407a54a92ab48
 #>
