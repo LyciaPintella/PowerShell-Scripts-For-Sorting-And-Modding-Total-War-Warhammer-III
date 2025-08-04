@@ -2,6 +2,22 @@
 winget repair --all
 winget upgrade --all
 winget install MartiCliment.UniGetUI #UniGet UI
+winget install Grammarly.Grammarly.Office #Grammarly for Microsoft Office
+winget install Microsoft.winfile #Windows File Manager
+winget install Microsoft.XMLNotepad #XML Notepad
+winget install Microsoft.WindowsPCHealthCheck #PC Health Check
+winget install Microsoft.WindowsJournal #Windows Journal
+winget install Microsoft.WSL #Windows Subsystem for Linux
+winget install Microsoft.UI.Xaml.2.8 #UI XAML 2.8
+winget install Microsoft.UI.Xaml.2.9 #UI XAML 2.9
+winget install Microsoft.RemoteDesktopClient #Remote Desktop Client
+winget install Microsoft.PowerAppsCLI #Power Apps CLI
+winget install Microsoft.NetMon #Microsoft Network Monitoring Agent
+winget install Microsoft.MouseWithoutBorders #Mouse without Borders
+winget install Microsoft.MediaCreationTool #Media Creation Tool
+winget install Microsoft.DiskSpd #DiskSpd
+winget install Microsoft.DataMigrationAssistant #Data Migration Assistant
+winget install Microsoft.CmdPalGitHubExtension #GitHub extension for Command Palette
 winget install 9PHHPRJ65T1Z #Lua Script Test
 winget install 9N2TLT3LFTD8 #Lua Code Studio
 winget install 9NPR957HTH9Q #LuaBox
@@ -58,7 +74,7 @@ winget install Tyrrrz.DiscordChatExporter.GUI #Discord Chat Exporter GUI
 winget install OverlayedDev.Overlayed #Overlayed
 winget install Ombrelin.PlexRichPresence #Plex Rich Presence
 winget install ScratchForDiscord.ScratchForDiscord #Scratch for Discord
-<# Weather Applications! #>
+# Weather Applications!
 winget install 9WZDNCRFJ3Q2
 winget install 9PP0MFQFVSC5
 winget install 9N33PK9646X9
@@ -72,7 +88,7 @@ winget install 9N0F79RT175S
 winget install 9NK7991SSJF1
 winget install 9PN5DLPMHV1Z
 winget install 9PN4P7PMP4JT
-<# End Weather Applications! #>
+# End Weather Applications!
 winget install Microsoft.PowerToys #PowerToys
 winget install Tenpi.PhotoViewer #Photo Viewer
 winget install Microsoft.VisualStudioCode
