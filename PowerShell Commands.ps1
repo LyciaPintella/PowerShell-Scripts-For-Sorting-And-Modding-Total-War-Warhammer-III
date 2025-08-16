@@ -1,6 +1,8 @@
 <# "C:\OneDrive\Jessica Ariadne Murphy\OneDrive\OneDrive Files\Total War Warhammer III - OneDrive Backups\Total War Warhammer III - PowerShell Scripts" continues #>
 
-Get-ChildItem "C:\Program Files\Steam\steamapps\common\Total War PHARAOH DYNASTIES\data" -Filter *.pack -Recurse | Select-String "projectiles_tables" | Select-Object -Unique Path | Format-Wide
+Get-ChildItem "C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War\Pharaoh Dynasties\data" -Filter *.pack -Recurse | Select-String "hcp_character_created" | Select-Object -Unique Path | Format-Wide
+
+Get-ChildItem "C:\OD\Jessica\OneDrive\Jess Files\Games\Steam\Total War\Steam Workshop Mods\Pharaoh Dynasties" -Filter *.pack -Recurse | Select-String "hcp_character_created" | Select-Object -Unique Path | Format-Wide
 
 # Directory List Short Name
 Get-ChildItem -Name
