@@ -1,10 +1,14 @@
 # Pull the 'openthinker:7b' model from Ollama
+ollama pull deepseek-coder:6.7b
+ollama pull deepseek-coder-v2:16b
 ollama pull llama3.2-vision:11b
 ollama pull openthinker:7b
 ollama pull qwen2.5-coder:7b
+ollama pull qwen2.5-coder:14b
+ollama pull codellama:7b
+ollama pull codellama:13b
 ollama pull starcoder2:7b
 ollama pull starcoder2:15b
-ollama pull mixtral:8x7b
 ollama pull mistral-nemo:12b
 ollama pull dolphin3:8b
 ollama pull llama3.2-vision:11b
@@ -14,8 +18,6 @@ ollama pull llama2:7b
 ollama pull qwen2.5:7b
 ollama pull qwen2.5:14b
 ollama pull codegemma:7b
-ollama pull deepseek-coder:6.7b
-ollama pull deepseek-coder-v2:16b
 ollama pull codellama:7b
 ollama pull codellama:13b
 ollama pull mistral:7b
@@ -25,7 +27,3 @@ ollama pull llama3.2:3b
 #Supports image input
 ollama pull llava:7b
 ollama pull llava:13b
-ollama pull qwen2.5-coder:7b
-ollama pull qwen2.5-coder:14b
-ollama pull codellama:7b
-ollama pull codellama:13b
