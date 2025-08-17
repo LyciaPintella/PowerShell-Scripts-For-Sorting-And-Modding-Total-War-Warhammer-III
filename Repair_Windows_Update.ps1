@@ -25,4 +25,6 @@ Remove-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Recurs
 Copy-Item -Path "C:\OD\Jessica\OneDrive\Jess Files\Start Menu ProgramData Backup" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Recurse -Destination  -Recurse
 
 f:\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /migratedrivers all
-
+Start-Process ms-settings:recovery
+#reboot into recovery mode
+shutdown /r /o /f /t 00
