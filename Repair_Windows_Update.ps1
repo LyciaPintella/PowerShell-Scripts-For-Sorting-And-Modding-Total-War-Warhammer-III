@@ -8,8 +8,8 @@ DISM /Online /Cleanup-Image /AnalyzeComponentStore
 DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 DISM /Online /Cleanup-Image /RestoreHealth
 sfc /scannow
-#If I can ever get it working.
-#DISM /Online /Cleanup-Image /RestoreHealth /Source:L:\sources\install.wim:1 /LimitAccess
+ If I can ever get it working.
+# DISM /Online /Cleanup-Image /RestoreHealth /Source:L:\sources\install.wim:1 /LimitAccess
 net stop wuauserv
 net stop cryptSvc
 net stop bits
@@ -21,15 +21,26 @@ net start wuauserv
 net start bits
 netsh winsock reset
 
-#After Windows Update, restore the Start Menu Programs
+# Install updates without automatic reboot
+Import-Module PSWindowsUpdate
+Install-WindowsUpdate -AcceptAll -IgnoreReboot
+
+# PAUSE HERE UNTIL REBOOT IS DONE.
+
+# After Windows Update, restore the Start Menu Programs
 Remove-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Recurse -Force
 New-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -ItemType Directory
 Copy-Item -Path "C:\OD\Jessica\OneDrive\Jess Files\Windows Tools And Drivers\Start Menu ProgramData Backup\*" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu" -Recurse -Force
 
+
+
+
+
+# Optional tools
+
 f:\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /migratedrivers all
+
 Start-Process ms-settings:recovery
-#reboot into recovery mode
+
+# reboot into recovery mode
 shutdown /r /o /f /t 00
-
-
-DISM /Image:C:\ /Cleanup-Image /RestoreHealth /Source:L:\sources\install.wim:1
