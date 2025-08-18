@@ -1,4 +1,5 @@
-Copy-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Destination "C:\OD\Jessica\OneDrive\Jess Files\Start Menu ProgramData Backup" -Recurse
+Remove-Item -Path "C:\OD\Jessica\OneDrive\Jess Files\Windows Tools And Drivers\Start Menu ProgramData Backup\Programs" -Recurse -Force
+Copy-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Destination "C:\OD\Jessica\OneDrive\Jess Files\Windows Tools And Drivers\Start Menu ProgramData Backup" -Recurse -Force
 Remove-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Recurse -Force
 New-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -ItemType Directory
 
@@ -23,7 +24,7 @@ netsh winsock reset
 #After Windows Update, restore the Start Menu Programs
 Remove-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Recurse -Force
 New-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -ItemType Directory
-Copy-Item -Path "C:\OD\Jessica\OneDrive\Jess Files\Start Menu ProgramData Backup\*" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -Recurse
+Copy-Item -Path "C:\OD\Jessica\OneDrive\Jess Files\Windows Tools And Drivers\Start Menu ProgramData Backup\*" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu" -Recurse -Force
 
 f:\setup.exe /auto upgrade /dynamicupdate disable /compat ignorewarning /migratedrivers all
 Start-Process ms-settings:recovery
