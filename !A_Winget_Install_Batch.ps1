@@ -222,10 +222,8 @@ winget install  amir1376.ABDownloadManager #AB Download Manager
 winget install Ventoy.Ventoy #Ventoy
 winget install VictorIX.BlenderLauncher
 winget install CrowdSecurity.CrowdSec #CrowdSec
-winget install MultiViewer.MultiViewer #MultiViewer
 winget install 0xJacky.nginx-ui #nginx-ui
 winget install DOSBox.DOSBox #DOSBox
-winget install Ubiquiti.WiFimanDesktop #WiFiman Desktop
 winget install U14.GeminiNextChat
 winget install WinDirStat.WinDirStat #WinDirStat
 		   <#LINUX DISTROS
