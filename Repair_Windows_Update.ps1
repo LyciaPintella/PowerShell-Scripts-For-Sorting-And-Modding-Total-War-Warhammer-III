@@ -25,7 +25,7 @@ DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 DISM /Online /Cleanup-Image /RestoreHealth
 
 sfc /scannow
-
+#temp
 #? DISM /Online /Cleanup-Image /RestoreHealth /Source:L:\sources\install.wim:1 /LimitAccess
 net stop wuauserv
 net stop cryptSvc
