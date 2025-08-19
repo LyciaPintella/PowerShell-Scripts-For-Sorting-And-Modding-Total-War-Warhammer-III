@@ -21,12 +21,11 @@ New-Item -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" -ItemType 
 
 DISM /Online /Cleanup-Image /RestoreHealth
 DISM /Online /Cleanup-Image /AnalyzeComponentStore
+
 DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 DISM /Online /Cleanup-Image /RestoreHealth
-
 sfc /scannow
 
-#? DISM /Online /Cleanup-Image /RestoreHealth /Source:L:\sources\install.wim:1 /LimitAccess
 net stop wuauserv
 net stop cryptSvc
 net stop bits
@@ -40,6 +39,7 @@ net start wuauserv
 net start bits
 
 netsh winsock reset
+#! REBOOT NEEDED HERE FOR WINSOCK RESET TO TAKE EFFECT
 
 #? Install updates without automatic reboot
 Import-Module PSWindowsUpdate
