@@ -16,10 +16,8 @@ Get-ChildItem | Format-Wide
 Get-ChildItem | Select-Object -ExpandPropertyFullName
 Get-ChildItem | Select-Object -ExpandPropertyFullName | Format-Wide
 
-#Findalljunctionsunderthisfolder
-Get-ChildItem-Path"C:\OneDrive"-Recurse-Force | Where-Object{$_.LinkType-ne$null-or$_.Attributes-match"Junction"} | ftFullName,Linktype,Target | Format-Wide
-Get-ChildItem-Path"C:\OneDrive\JessicaAriadneMurphy\OneDrive"-Recurse-Force | Where-Object{$_.LinkType-ne$null-or$_.Attributes-match"Junction"} | ftFullName,Linktype,Target | Format-Wide
+# ! Find Symbolic Links Under the Current Directory!
+Get-ChildItem -Recurse -Force -Attributes ReparsePoint | Where-Object LinkType -eq 'SymbolicLink' | Format-Wide
 
-#Thisdoesitfromthecurrentdirectory
-Get-ChildItem-Recurse-Force | Where-Object{$_.LinkType-ne$null-or$_.Attributes-match"Junction"} | ftFullName,Linktype,Target
-
+# ? Find Junctions Under the Current Directory!!
+Get-ChildItem -Recurse -Force -Attributes ReparsePoint | Where-Object LinkType -eq 'Junction' | Format-Wide
