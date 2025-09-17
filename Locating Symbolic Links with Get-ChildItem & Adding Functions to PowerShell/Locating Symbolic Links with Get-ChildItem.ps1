@@ -39,6 +39,7 @@ notepad $Profile
 #^ Get-Symlinks
 #& Get-Symlinks -OnlySymbolic
 2. Load On-Demand from a Script File
+
 1. Save the function definition to a file, for example:
 #*C:\Scripts\Get-Symlinks.ps1
 2. In any PowerShell session, dot-source the file to load it: C:\Scripts\Get-Symlinks.ps1"
