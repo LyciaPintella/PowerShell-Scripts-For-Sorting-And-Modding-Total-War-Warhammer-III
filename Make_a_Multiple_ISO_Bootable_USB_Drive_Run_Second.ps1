@@ -54,7 +54,7 @@ xcopy "$($isoDriveLetter):\*" "$usbDrive\" /s /e
 
 # Clean up: Unmount the ISO
 Dismount-DiskImage -ImagePath $isoPath #-DevicePath $volumeInfo.DeviceID
-
+<#
 # MemTest86
 # Identify the target USB drive (ensure correct drive letter)
 $usbDrive = "O:"
@@ -81,3 +81,4 @@ echo $volumeInfo.DevicePath
 
 # Clean up: Unmount the ISO
 Dismount-DiskImage -ImagePath $isoPath
+#>

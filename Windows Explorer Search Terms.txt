@@ -1,1 +1,1 @@
-filename:*Jessica-pc
+filename:(*Jessica-pc) kind:file
