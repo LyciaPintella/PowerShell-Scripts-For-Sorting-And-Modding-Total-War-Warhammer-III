@@ -1,5 +1,7 @@
 ﻿$folders = @(
+  "E:\OD\Cejesti",
   "E:\OD\Cejesti\OneDrive",
+  "E:\OD\Erelyn",
   "E:\OD\Erelyn\OneDrive"
 )
 
@@ -8,7 +10,7 @@ foreach ($path in $folders) {
   $acl = Get-Acl $path
 
   # Remove any Deny rule for Everyone delete rights
-  $denyRules = $acl.Access | 
+  $denyRules = $acl.Access |
     Where-Object {
       $_.IdentityReference -eq 'Everyone' -and
       $_.FileSystemRights -match 'DeleteSubdirectoriesAndFiles' -and
